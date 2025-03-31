@@ -17,10 +17,7 @@
     }
   </style>
 
-  <!-- Фон -->
-  <rect width="100%" height="100%" rx="25" fill="#0a192f"/>
-  <!-- Анимация печатающегося текста -->
-    <!-- Анимация печатающегося текста -->
+  <rect width="100%" height="100%" rx="25" fill="#141321"/>
   <text x="80" y="60" class="typing-text">
     <animate attributeName="opacity" values="0;5" dur="0.5s" fill="freeze"/>
     <animate attributeName="textLength" from="0" to="350" dur="1.5s" fill="freeze"/>
