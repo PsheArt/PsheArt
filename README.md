@@ -1,26 +1,21 @@
 # Hi, I'm  Artem! 👋
 
 <div align="center">
-  <table style="border:none;border-collapse:collapse">
-    <tr style="border:none">
-      <td valign="center" width="60%" style="border:none;padding:0">
-        <div>
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=36BCF7&width=350&lines=Software+Engineer" alt="Software Engineer">
-        </div>
-        <div>
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=323511&width=350&lines=Master's+degree+student+of+BSU" alt="BSU Student">
-        </div>
-        <div>
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=712434&width=350&lines=Programming+Teacher+at+BSU" alt="BSU Teacher">
-        </div>
-      </td>
-      <td valign="center" width="40%" style="border:none;padding:0">
-        <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="250" alt="Octocat">
-      </td>
-    </tr>
-  </table>
+  <div style="display: inline-block; vertical-align: middle;">
+    <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="220" alt="Octocat">
+  </div>
+  <div style="display: inline-block; vertical-align: middle; margin-left: 30px; text-align: left;">
+    <div>
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=36BCF7&width=280&lines=Software+Engineer" alt="Software Engineer">
+    </div>
+    <div style="margin-top: 8px;">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=323511&width=280&lines=Master's+student+at+BSU">
+    </div>
+    <div style="margin-top: 8px;">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=712434&width=280&lines=Programming+Teacher">
+    </div>
+  </div>
 </div>
-
 💡 I like to solve complex problems and automate processes.
 
 ## 🛠️ My stack:
