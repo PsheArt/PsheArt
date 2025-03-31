@@ -1,20 +1,24 @@
 # Hi, I'm  Artem! 👋
 
 <div align="center">
-  <div style="display: inline-block; vertical-align: middle;">
-    <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="220" alt="Octocat">
-  </div>
-  <div style="display: inline-block; vertical-align: middle; margin-left: 30px; text-align: left;">
-    <div>
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=36BCF7&width=280&lines=Software+Engineer" alt="Software Engineer">
-    </div>
-    <div style="margin-top: 8px;">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=323511&width=280&lines=Master's+student+at+BSU">
-    </div>
-    <div style="margin-top: 8px;">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=712434&width=280&lines=Programming+Teacher">
-    </div>
-  </div>
+  <table style="border:none;border-collapse:collapse;margin:0;padding:0">
+    <tr style="border:none">
+      <td style="border:none;padding:0;vertical-align:middle;width:40%">
+        <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="220" alt="Octocat">
+      </td>
+      <td style="border:none;padding:0;vertical-align:middle;width:60%;text-align:left">
+        <div>
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=36BCF7&width=280&lines=Software+Engineer" alt="Software Engineer">
+        </div>
+        <div style="margin-top:8px">
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=323511&width=280&lines=Master's+student+at+BSU">
+        </div>
+        <div style="margin-top:8px">
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=712434&width=280&lines=Programming+Teacher">
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
 💡 I like to solve complex problems and automate processes.
 
