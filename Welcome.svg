@@ -13,5 +13,5 @@
             100% { fill: #79c0ff; }
         }
     </style>
-    <text x="70" y="50" class="text">Hi there, I'm Artem</text>
+    <text x="20" y="45" class="text">Hi there, I'm Artem</text>
 </svg>
