@@ -5,8 +5,6 @@
   <img src="Profile.svg" width="100%" height="100%" alt="css-readme">
 </div>
 
-💡 I like to solve complex problems and automate processes.
-
 ## 🛠️ My stack:
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#">
