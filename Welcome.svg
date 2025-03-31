@@ -1,9 +1,9 @@
-<svg fill="none" viewBox="0 0 600 120" width="600" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 500 50" width="500" height="50" xmlns="http://www.w3.org/2000/svg">
     <style>
         .text {
             font-family: 'Montserrat', sans-serif;
-            font-size: 32px;
-            font-weight: 700;
+            font-size: 40px;
+            font-weight: 800;
             fill: #58a6ff;
             animation: colorChange 3s infinite alternate;
         }
@@ -13,8 +13,5 @@
             100% { fill: #79c0ff; }
         }
     </style>
-    
-    <text x="30" y="50" style="font-size: 40px;">👋</text>
     <text x="70" y="50" class="text">Hi there, I'm Artem</text>
-    <line x1="70" y1="60" x2="400" y2="60" stroke="#1f6feb" stroke-width="2" stroke-dasharray="5,3" />
 </svg>
