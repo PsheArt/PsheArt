@@ -1,25 +1,29 @@
 # Hi, I'm  Artem! 👋
 
 <div align="center">
-  <table style="border:none;border-collapse:collapse;margin:0;padding:0">
-    <tr style="border:none">
-      <td style="border:none;padding:0;vertical-align:middle;width:40%">
-        <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="220" alt="Octocat">
-      </td>
-      <td style="border:none;padding:0;vertical-align:middle;width:60%;text-align:left">
-        <div>
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=36BCF7&width=280&lines=Software+Engineer" alt="Software Engineer">
-        </div>
-        <div style="margin-top:8px">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=323511&width=280&lines=Master's+student+at+BSU">
-        </div>
-        <div style="margin-top:8px">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=712434&width=280&lines=Programming+Teacher">
-        </div>
-      </td>
-    </tr>
-  </table>
+  <div style="display: inline-block; background: #0a192f; border-radius: 10px; padding: 5px;">
+    <table>
+      <tr>
+        <!-- Картинка -->
+        <td valign="middle" style="padding-right: 15px;">
+          <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="180" style="border: 2px solid #58a6ff; border-radius: 6px;">
+        </td>
+        <td valign="middle" style="text-align: left; padding-left: 15px; border-left: 1px dashed #58a6ff;">
+          <div>
+            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=58a6ff&width=250&lines=Software+Engineer">
+          </div>
+          <div style="margin-top: 8px;">
+            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=79c0ff&width=250&lines=Master's+student+at+BSU">
+          </div>
+          <div style="margin-top: 8px;">
+            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=1f6feb&width=250&lines=Programming+Teacher">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
 </div>
+
 💡 I like to solve complex problems and automate processes.
 
 ## 🛠️ My stack:
