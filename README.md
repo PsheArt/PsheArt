@@ -17,7 +17,7 @@
 ## 📊 My stats:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PsheArt&theme=radical" alt="Top Langs">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PsheArt&layout=compact&theme=radical" alt="Top Langs">
 </p>
 
 ## 🚀 Мy projects:
