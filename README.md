@@ -46,22 +46,22 @@
 ## 🚀 Мy projects:
 <p align="center">
   <a href="https://github.com/PsheArt/ML_EmployeeLeaving_MLPython">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ML_EmployeeLeaving_MLPython&theme=radical" alt="ML EmployeeLeaving">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ML_EmployeeLeaving_MLPython&theme=radical" alt="ML EmployeeLeaving">
   </a>
   <a href="https://github.com/PsheArt/ParsingBanki.ru_PythonParser">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ParsingBanki.ru_PythonParser&theme=radical" alt="Banki.ru Parser">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ParsingBanki.ru_PythonParser&theme=radical" alt="Banki.ru Parser">
   </a>
   <a href="https://github.com/PsheArt/ProjectResearch_Django">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ProjectResearch_Django&theme=radical" alt="Django Research">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ProjectResearch_Django&theme=radical" alt="Django Research">
   </a>
   <a href="https://github.com/PsheArt/SimpleExampleOfQuiries">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleOfQuiries&theme=radical" alt="SQL Queries">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleOfQuiries&theme=radical" alt="SQL Queries">
   </a>
   <a href="https://github.com/PsheArt/UML_Diagrams">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=UML_Diagrams&theme=radical" alt="UML Diagrams">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=UML_Diagrams&theme=radical" alt="UML Diagrams">
   </a>
   <a href="https://github.com/PsheArt/SimpleExampleProccessOrder_WebApi">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleProccessOrder_WebApi&theme=radical" alt="WebAPI Order Processing">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleProccessOrder_WebApi&theme=radical" alt="WebAPI Order Processing">
   </a>
 </p>
 
