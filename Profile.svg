@@ -1,16 +1,10 @@
-<svg width="600" height="150" viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
-    <rect width="600" height="150" rx="10" fill="#0a192f"/>
-    <image href="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" 
-           x="20" y="25" width="160" height="160" 
-           clip-path="circle(80 at 100 105)"/>
-
-    <foreignObject x="200" y="40" width="380" height="120">
-        <div xmlns="http://www.w3.org/1999/xhtml" style="color: #58a6ff; font-family: 'Fira Code', monospace; font-size: 14px;">
-            <div>Software Engineer</div>
+<svg fill="none" viewBox="0 0 650 220" width="650" height="220" xmlns="http://www.w3.org/2000/svg">
+    <rect width="650" height="220" rx="25" fill="#0a192f"/>
+    <foreignObject x="50" y="35" width="650" height="220">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="color: #58a6ff; font-family: 'Fira Code', monospace; font-size: 30px;">
+            <div style="margin-top: 8px;">Software Engineer</div>
             <div style="margin-top: 8px; color: #79c0ff">Master's student at BSU</div>
             <div style="margin-top: 8px; color: #1f6feb">Programming Teacher</div>
         </div>
     </foreignObject>
-    
-    <line x1="190" y1="30" x2="190" y2="120" stroke="#58a6ff" stroke-dasharray="5,3" stroke-width="1"/>
 </svg>
