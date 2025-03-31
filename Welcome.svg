@@ -9,14 +9,14 @@
 
             @keyframes mymove {
                 from {
-                    color: red;
+                    color: white;
                 }
                 to {
-                    color: yellow;
+                    color: red;
                 }
             }
             </style>
-            <h1>HELLO WORLD!</h1>
+            <h1>Hi there, I'm  Artem  </h1>
         </div>
     </foreignObject>
 </svg>
