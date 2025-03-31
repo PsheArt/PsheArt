@@ -39,7 +39,7 @@
 
 ## 📈 My streak:
 <p align="center">
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=navy-gear&hide_border=true&border_radius=25&short_numbers=true&date_format=j%2Fn%5B%2FY%5D&card_width=550&card_height=250&background=141321" alt="GitHub Streak" /></a>
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=navy-gear&hide_border=false&border_radius=25&short_numbers=true&date_format=j%2Fn%5B%2FY%5D&card_width=550&card_height=250&background=141321&border=FFFFFF" alt="GitHub Streak" /></a>
 </p>
 
 
