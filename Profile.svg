@@ -17,7 +17,7 @@
     }
   </style>
 
-  <rect width="100%" height="100%" rx="25" fill="#141321"/>
+  <rect width="100%" height="100%" rx="25" fill="#141321" stroke="white" stroke-width="5"/>
   <text x="80" y="60" class="typing-text">
     <animate attributeName="opacity" values="0;5" dur="0.5s" fill="freeze"/>
     <animate attributeName="textLength" from="0" to="350" dur="1.5s" fill="freeze"/>
