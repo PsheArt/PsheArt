@@ -27,10 +27,10 @@
 
 ## 📊 My stats:
 <p align="center">
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/PsheArt">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical&rank_icon=percentile&border_radius=25"  />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/PsheArt">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=PsheArt&layout=compact&langs_count=8&card_width=320&show_icons=true&theme=radical&border_radius=25" />
 </a>
 </p>
