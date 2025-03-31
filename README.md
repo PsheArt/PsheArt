@@ -1,6 +1,7 @@
 # Привет, я  Артём! 👋
 
-🚀 **[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Software+Engineer)](https://git.io/typing-svg)** | C# | AspNet | TypeScript | SQL  
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Software+Engineer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23323511&lines=Master's+degree+student+of+BSU)](https://git.io/typing-svg)
 
 💡 Люблю решать сложные задачи и автоматизировать процессы.  
 📫 Связь: [Telegram](https://t.me/psh3art) | [Email](mailto:pshenichnykh.art@yandex.com)  
