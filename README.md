@@ -1,8 +1,25 @@
 # Hi, I'm  Artem! 👋
 
-> [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Software+Engineer)](https://git.io/typing-svg) <br/>
-> [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23323511&lines=Master's+degree+student+of+BSU)](https://git.io/typing-svg) <br/>
-> [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%28712434&lines=Programming+Teacher+at+BSU)](https://git.io/typing-svg) <br/>
+<div align="center">
+  <table style="border:none;border-collapse:collapse">
+    <tr style="border:none">
+      <td valign="center" width="60%" style="border:none;padding:0">
+        <div>
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=36BCF7&width=350&lines=Software+Engineer" alt="Software Engineer">
+        </div>
+        <div>
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=323511&width=350&lines=Master's+degree+student+of+BSU" alt="BSU Student">
+        </div>
+        <div>
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=712434&width=350&lines=Programming+Teacher+at+BSU" alt="BSU Teacher">
+        </div>
+      </td>
+      <td valign="center" width="40%" style="border:none;padding:0">
+        <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="250" alt="Octocat">
+      </td>
+    </tr>
+  </table>
+</div>
 
 💡 I like to solve complex problems and automate processes.
 
