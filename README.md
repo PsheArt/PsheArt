@@ -1,7 +1,6 @@
 <div align="center">
-    <img src="Welcome.svg" width="100" height="100" alt="css-in-readme">
+    <img src="Welcome.svg" width="800" height="400" alt="css-readme">
 </div>  
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <div align="center">
   <div style="display: inline-block; background: #0a192f; border-radius: 10px; padding: 5px;">
     <table>
