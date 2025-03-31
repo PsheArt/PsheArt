@@ -2,26 +2,7 @@
     <img src="Welcome.svg" width="100%" height="100%" alt="css-readme">
 </div>  
 <div align="center">
-  <div style="display: inline-block; background: #0a192f; border-radius: 10px; padding: 5px;">
-    <table>
-      <tr>
-        <td valign="middle" style="padding-right: 15px;">
-          <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="180" style="border: 2px solid #58a6ff; border-radius: 6px;">
-        </td>
-        <td valign="middle" style="text-align: left; padding-left: 15px; border-left: 1px dashed #58a6ff;">
-          <div>
-            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=58a6ff&width=250&lines=Software+Engineer">
-          </div>
-          <div style="margin-top: 8px;">
-            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=79c0ff&width=250&lines=Master's+student+at+BSU">
-          </div>
-          <div style="margin-top: 8px;">
-            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=1f6feb&width=250&lines=Programming+Teacher">
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
+  <img src="Profile.svg" width="100%" height="100%" alt="css-readme">
 </div>
 
 💡 I like to solve complex problems and automate processes.
