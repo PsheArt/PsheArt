@@ -38,8 +38,6 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical" alt="GitHub Stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PsheArt&layout=compact&theme=radical" alt="Top Langs">
-
-  [![PsheArt's github activity graph](https://activity-graph.herokuapp.com/graph?username=PsheArt)](https://github.com/PsheArt/ML_EmployeeLeaving_MLPython)
 </p>
 
 ## 🚀 Мy projects:
