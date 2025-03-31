@@ -22,7 +22,7 @@
 
   <!-- Анимация печатающегося текста -->
   <text x="80" y="60" class="typing-text">
-    <image href="https://raw.githubusercontent.com/PsheArt/PsheArt/main/assets/octocat-1743395881057.png" 
+    <image href="https://raw.githubusercontent.com/PsheArt/PheArt/main/assets/octocat-1743395881057.png" 
            x="30" y="30" width="200" height="160" 
            style="border: 2px solid #58a6ff; border-radius: 8px;"/>
     <animate attributeName="opacity" values="0;5" dur="0.5s" fill="freeze"/>
