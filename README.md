@@ -19,8 +19,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=psheart&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 
-
-[![MyRepositories]
+## My projects
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ML_EmployeeLeaving_MLPython)](https://github.com/PsheArt/ML_EmployeeLeaving_MLPython)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ParsingBanki.ru_PythonParser)](https://github.com/PsheArt/ParsingBanki.ru_PythonParser)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ProjectResearch_Django)](https://github.com/PsheArt/ProjectResearch_Django)
