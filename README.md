@@ -5,24 +5,50 @@
 > [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%28712434&lines=Programming+Teacher+at+BSU)](https://git.io/typing-svg) <br/>
 
 💡 I like to solve complex problems and automate processes.
-📫 Contact: [Telegram](https://t.me/psh3art) | [Email](mailto:pshenichnykh.art@yandex.com)  
 
-![octocat-1743395881057](https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c)
+## 🛠️ My stack:
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="MS SQL">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+</p>
 
-### 🛠️ My stack:
-![C#](https://img.shields.io/badge/Csharp-blue?style=for-the-badge&logo=C#&logoColor=black)
-![AspNet](https://img.shields.io/badge/Csharp-ASPNET-blue?style=for-the-badge&logo=C#&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-red?style=for-the-badge&logo=TS&logoColor=white)
-![MSSQL](https://img.shields.io/badge/MSSQL-white?style=for-the-badge&logo=SQL&logoColor=blue)
-![Django](https://img.shields.io/badge/Python-Django-green?style=for-the-badge&logo=python&logoColor=white)
+## 📊 My stats:
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PsheArt&layout=compact&theme=radical" alt="Top Langs">
+</p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=psheart&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+## 🚀 Мy projects:
+<p align="center">
+  <a href="https://github.com/PsheArt/ML_EmployeeLeaving_MLPython">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ML_EmployeeLeaving_MLPython&theme=radical" alt="ML EmployeeLeaving">
+  </a>
+  <a href="https://github.com/PsheArt/ParsingBanki.ru_PythonParser">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ParsingBanki.ru_PythonParser&theme=radical" alt="Banki.ru Parser">
+  </a>
+  <a href="https://github.com/PsheArt/ProjectResearch_Django">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ProjectResearch_Django&theme=radical" alt="Django Research">
+  </a>
+  <a href="https://github.com/PsheArt/SimpleExampleOfQuiries">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleOfQuiries&theme=radical" alt="SQL Queries">
+  </a>
+  <a href="https://github.com/PsheArt/UML_Diagrams">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=UML_Diagrams&theme=radical" alt="UML Diagrams">
+  </a>
+  <a href="https://github.com/PsheArt/SimpleExampleProccessOrder_WebApi">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleProccessOrder_WebApi&theme=radical" alt="WebAPI Order Processing">
+  </a>
+</p>
 
-
-## My projects
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ML_EmployeeLeaving_MLPython)](https://github.com/PsheArt/ML_EmployeeLeaving_MLPython)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ParsingBanki.ru_PythonParser)](https://github.com/PsheArt/ParsingBanki.ru_PythonParser)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ProjectResearch_Django)](https://github.com/PsheArt/ProjectResearch_Django)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleOfQuiries)](https://github.com/PsheArt/SimpleExampleOfQuiries)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=UML_Diagrams)](https://github.com/PsheArt/UML_Diagrams)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleProccessOrder_WebApi)](https://github.com/PsheArt/SimpleExampleProccessOrder_WebApi)
+## 📫 Contact:
+<p align="center">
+  <a href="https://t.me/psh3art">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  <a href="mailto:pshenichnykh.art@yandex.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
