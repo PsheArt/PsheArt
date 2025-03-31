@@ -1,10 +1,9 @@
-# Hi, I'm  Artem! 👋
-
+<h1 align="center">Hi there, I'm  Artem  
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <div align="center">
   <div style="display: inline-block; background: #0a192f; border-radius: 10px; padding: 5px;">
     <table>
       <tr>
-        <!-- Картинка -->
         <td valign="middle" style="padding-right: 15px;">
           <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="180" style="border: 2px solid #58a6ff; border-radius: 6px;">
         </td>
@@ -32,13 +31,15 @@
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="MS SQL">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=python&logoColor=white" alt="Django">
 </p>
 
 ## 📊 My stats:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical" alt="GitHub Stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PsheArt&layout=compact&theme=radical" alt="Top Langs">
+
+  [![PsheArt's github activity graph](https://activity-graph.herokuapp.com/graph?username=PsheArt)](https://github.com/PsheArt/ML_EmployeeLeaving_MLPython)
 </p>
 
 ## 🚀 Мy projects:
