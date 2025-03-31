@@ -13,3 +13,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-red?style=for-the-badge&logo=TS&logoColor=white)
 ![MSSQL](https://img.shields.io/badge/MSSQL-white?style=for-the-badge&logo=SQL&logoColor=blue)
 ![Django](https://img.shields.io/badge/Python-Django-green?style=for-the-badge&logo=python&logoColor=white)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=psheart&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
