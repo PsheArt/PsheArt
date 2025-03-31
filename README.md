@@ -20,6 +20,14 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PsheArt&layout=compact&theme=radical" alt="Top Langs">
 </p>
 
+
+## 📊 My streak:
+<p align="center">
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=react&hide_border=true&border_radius=5&short_numbers=true&date_format=j%2Fn%5B%2FY%5D&card_width=550&card_height=250&background=26496F" alt="GitHub Streak" /></a>
+</p>
+
+
+
 ## 🚀 Мy projects:
 <p align="center">
   <a href="https://github.com/PsheArt/ML_EmployeeLeaving_MLPython">
