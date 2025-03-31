@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 500 50" width="500" height="50" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 450 50" width="450" height="50" xmlns="http://www.w3.org/2000/svg">
     <style>
         .text {
             font-family: 'Montserrat', sans-serif;
@@ -13,5 +13,5 @@
             100% { fill: #79c0ff; }
         }
     </style>
-    <text x="20" y="45" class="text">Hi there, I'm Artem</text>
+    <text x="15" y="40" class="text">Hi there, I'm Artem</text>
 </svg>
