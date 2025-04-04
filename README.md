@@ -1,8 +1,8 @@
 <div align="center">
-    <img src="Welcome.svg" width="100%" height="100%" alt="css-readme">
+    <img src="Welcome.svg" width="90%" height="90%" alt="css-readme">
 </div>  
 <div align="center">
-  <img src="Profile.svg" width="100%" height="100%" alt="css-readme">
+  <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
 </div>
 
 ## </> My stack:
@@ -28,10 +28,10 @@
 ## 📊 My stats:
 <p align="center">
 <a href="https://github.com/PsheArt">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical&rank_icon=percentile&border_radius=25"  />
+  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical&rank_icon=percentile&border_radius=25"  />
 </a>
 <a href="https://github.com/PsheArt">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=PsheArt&layout=compact&langs_count=8&card_width=320&show_icons=true&theme=radical&border_radius=25" />
+  <img height=225 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=PsheArt&layout=compact&langs_count=8&card_width=320&show_icons=true&theme=radical&border_radius=25" />
 </a>
 </p>
 
