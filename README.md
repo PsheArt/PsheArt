@@ -5,7 +5,7 @@
   <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
 </div>
 
-## </> My stack:
+## </> Stack:
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#">
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=python&logoColor=white" alt="Django">
 </p>
 
-## 🛠️ My tools:
+## 🛠️ Tools:
 <p align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original.svg" title="visualstudio" alt="visualstudio" width="50" height="50"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg" title="microsoftsqlserver" alt="microsoftsqlserver" width="50" height="50"/>
@@ -25,7 +25,7 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="nodejs" alt="nodejs" width="50" height="50"/> 
 </p>
 
-## 📊 My stats:
+## 📊 Stats:
 <p align="center">
 <a href="https://github.com/PsheArt">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical&rank_icon=percentile&border_radius=25"  />
@@ -37,13 +37,13 @@
 
 
 
-## 📈 My streak:
+## 📈 Streak:
 <p align="center">
     <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20" alt="GitHub Streak" /></a>
 </p>
 
 
-## 🚀 Мy projects:
+## 🚀 Projects:
 <p align="center">
   <a href="https://github.com/PsheArt/ML_EmployeeLeaving_MLPython">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ML_EmployeeLeaving_MLPython&theme=radical&border_radius=25" alt="ML EmployeeLeaving">
