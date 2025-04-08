@@ -1,65 +1,67 @@
 <div align="center">
-    <img src="Welcome.svg" width="100%" height="100%" alt="css-readme">
+    <img src="Welcome.svg" width="90%" height="90%" alt="css-readme">
 </div>  
 <div align="center">
-  <div style="display: inline-block; background: #0a192f; border-radius: 10px; padding: 5px;">
-    <table>
-      <tr>
-        <td valign="middle" style="padding-right: 15px;">
-          <img src="https://github.com/user-attachments/assets/3d017936-d1ce-4f4b-ab10-d736fcb0bb4c" width="180" style="border: 2px solid #58a6ff; border-radius: 6px;">
-        </td>
-        <td valign="middle" style="text-align: left; padding-left: 15px; border-left: 1px dashed #58a6ff;">
-          <div>
-            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=58a6ff&width=250&lines=Software+Engineer">
-          </div>
-          <div style="margin-top: 8px;">
-            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=79c0ff&width=250&lines=Master's+student+at+BSU">
-          </div>
-          <div style="margin-top: 8px;">
-            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=1f6feb&width=250&lines=Programming+Teacher">
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
+  <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
 </div>
 
-💡 I like to solve complex problems and automate processes.
-
-## 🛠️ My stack:
+## </> Stack:
 <p align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#">
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="MS SQL">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=python&logoColor=white" alt="Django">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" width="70" height="50">
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" width="100" height="50">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" width="200" height="50">
+  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="MS SQL" width="275" height="50">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=python&logoColor=white" alt="Django" width="150" height="50">
 </p>
 
-## 📊 My stats:
+## 🛠️ Tools:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PsheArt&layout=compact&theme=radical" alt="Top Langs">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original.svg" title="visualstudio" alt="visualstudio" width="50" height="50"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg" title="microsoftsqlserver" alt="microsoftsqlserver" width="50" height="50"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="npm" alt="npm" width="50" height="50"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="vscode" alt="vscode" width="50" height="50"/> 
+  <img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg" title="pycharm" alt="pycharm" width="50" height="50"/> 
+  <img src="https://github.com/devicons/devicon/blob/master/icons/pnpm/pnpm-original.svg" title="pnpm" alt="pnpm" width="50" height="50"/> 
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" title="nodejs" alt="nodejs" width="50" height="50"/> 
 </p>
 
-## 🚀 Мy projects:
+## 📊 Stats:
+<p align="center">
+<a href="https://github.com/PsheArt">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=PsheArt&show_icons=true&theme=radical&rank_icon=percentile&border_radius=25"  />
+</a>
+<a href="https://github.com/PsheArt">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=PsheArt&layout=compact&langs_count=8&card_width=320&show_icons=true&theme=radical&border_radius=25" />
+</a>
+</p>
+
+
+
+## 📈 Streak:
+<p align="center">
+    <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20" alt="GitHub Streak" /></a>
+</p>
+
+
+## 🚀 Projects:
 <p align="center">
   <a href="https://github.com/PsheArt/ML_EmployeeLeaving_MLPython">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ML_EmployeeLeaving_MLPython&theme=radical" alt="ML EmployeeLeaving">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ML_EmployeeLeaving_MLPython&theme=radical&border_radius=25" alt="ML EmployeeLeaving">
   </a>
   <a href="https://github.com/PsheArt/ParsingBanki.ru_PythonParser">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ParsingBanki.ru_PythonParser&theme=radical" alt="Banki.ru Parser">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ParsingBanki.ru_PythonParser&theme=radical&border_radius=25" alt="Banki.ru Parser">
   </a>
   <a href="https://github.com/PsheArt/ProjectResearch_Django">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ProjectResearch_Django&theme=radical" alt="Django Research">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=ProjectResearch_Django&theme=radical&border_radius=25" alt="Django Research">
   </a>
   <a href="https://github.com/PsheArt/SimpleExampleOfQuiries">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleOfQuiries&theme=radical" alt="SQL Queries">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleOfQuiries&theme=radical&border_radius=25" alt="SQL Queries">
   </a>
   <a href="https://github.com/PsheArt/UML_Diagrams">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=UML_Diagrams&theme=radical" alt="UML Diagrams">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=UML_Diagrams&theme=radical&border_radius=25" alt="UML Diagrams">
   </a>
   <a href="https://github.com/PsheArt/SimpleExampleProccessOrder_WebApi">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleProccessOrder_WebApi&theme=radical" alt="WebAPI Order Processing">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=PsheArt&repo=SimpleExampleProccessOrder_WebApi&theme=radical&border_radius=25" alt="WebAPI Order Processing">
   </a>
 </p>
 
