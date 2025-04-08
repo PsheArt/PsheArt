@@ -39,7 +39,7 @@
 
 ## 📈 Streak:
 <p align="center">
-    <a href="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20" alt="GitHub Streak" /></a>
+    <a href="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20" alt="GitHub PsheArt's Streak" /></a>
 </p>
 
 
