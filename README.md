@@ -8,10 +8,10 @@
 ## </> Stack:
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" width="75" height="50">
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" width="100" height="50">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" width="205" height="50">
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="MS SQL" width="275" height="50">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=python&logoColor=white" alt="Django" width="155" height="50">
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" width="130" height="130">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" width="225" height="225">
+  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="MS SQL" width="340" height="340">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=python&logoColor=white" alt="Django" width="175" height="175">
 </p>
 
 ## 🛠️ Tools:
