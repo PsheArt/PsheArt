@@ -71,14 +71,14 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     text_color = "#58a6ff"
     translation_color = "#8b949e"
 
-    svg_content = f'''<svg width="800" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
+    svg_content = f'''<svg width="6500" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     .title {{ font: bold 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {text_color}; }}
     .quote {{ font: italic 16px Georgia, 'Times New Roman', serif; fill: {text_color}; }}
     .translation {{ font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
   </style>
-  <rect width="800" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
+  <rect width="600" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
 
   <text class="title">
     <tspan x="30" y="40">Quote of the day ({date_str})</tspan>
