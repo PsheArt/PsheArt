@@ -1,17 +1,21 @@
-<svg width="800" height="184" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="174" xmlns="http://www.w3.org/2000/svg">
 
   <style>
-    .container { fill: #141321; rx: 12; ry: 12; }
     .title { font: bold 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #58a6ff; }
     .quote { font: italic 16px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect class="container" x="0" y="0" width="800" height="184"/>
-  <text x="30" y="40" class="title">Quote of the day (2026-01-01)</text>
-  <text x="30" y="70" class="quote">
-    «It's what you do in the present that will redeem the past and thereby change the future.» — Paulo Coelho
+  <rect width="800" height="174" fill="#141321" rx="12" ry="12"/>
+
+  <text class="title">
+    <tspan x="30" y="40">Quote of the day (2026-01-01)</tspan>
   </text>
-  <text x="30" y="118" class="translation">
-    «То, что вы делаете в настоящем, искупит прошлое и тем самым изменит будущее.» — Пауло Коэльо
+  <text class="quote">
+    <tspan x="30" y="70">«Awakening is possible only for those who seek it and want it.» —</tspan>
+    <tspan x="30" y="94">G.I. Gurdjieff</tspan>
+  </text>
+  <text class="translation">
+    <tspan x="30" y="126">«Пробуждение возможно только для тех, кто ищет его</tspan>
+    <tspan x="30" y="150">и хочет этого.» — Г.И. Гурджиев</tspan>
   </text>
 </svg>
