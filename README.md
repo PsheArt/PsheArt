@@ -5,6 +5,10 @@
   <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
 </div>
 
+<div align="center">
+  <img src="quote.svg" alt="Quote of the day">
+</div>
+
 ## </> Stack:
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" width="75" height="50">
