@@ -1,8 +1,9 @@
 name: Daily Quote
+
 on:
   schedule:
-    - cron: '0 7 * * *'
-  workflow_dispatch:  
+    - cron: '0 7 * * *'  
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -16,54 +17,20 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Fetch quote from API and update README
-        run: |
-          python3 -c "
-          import urllib.request
-          import json
-          import re
-          import datetime
-      
-          try:
-              with urllib.request.urlopen('https://api.quotable.io/random', timeout=10) as response:
-                  data = json.loads(response.read().decode())
-                  quote_text = data['content']
-                  quote_author = data['author']
-          except Exception as e:
-              quote_text = 'The best way to predict the future is to invent it.'
-              quote_author = 'Alan Kay'
-      
-          full_quote = f'«{quote_text}» — {quote_author}'
-          today = datetime.datetime.now().strftime('%Y-%m-%d')
-          new_block = f'## 📅 Цитата дня ({today})\\n\\n> {full_quote}\\n'
-      
-          try:
-              with open('README.md', 'r', encoding='utf-8') as f:
-                  content = f.read()
-          except FileNotFoundError:
-              content = '# Мой репозиторий\\n\\n'
-      
-          import re
-          pattern = r'(## 📅 Цитата дня \(.*?\)\\n\\n> .*?\\n)'
-          if re.search(pattern, content, re.DOTALL):
-              updated = re.sub(pattern, new_block, content, count=1, flags=re.DOTALL)
-          else:
-              lines = content.splitlines(keepends=True)
-              if len(lines) > 1:
-                  lines.insert(1, '\\n' + new_block + '\\n')
-              else:
-                  lines.append('\\n' + new_block + '\\n')
-              updated = ''.join(lines)
-      
-          with open('README.md', 'w', encoding='utf-8') as f:
-              f.write(updated)
-          "
+      - name: Install dependencies
+        run: pip install deep-translator
 
-      - name: Commit and push changes
+      - name: Run update script
+        run: python3 update-readme.py
+
+      - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet && echo "No changes" && exit 0
-          git commit -m "Цитата дня: $(date +%Y-%m-%d)"
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "Quote of the day: $(date +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes"
+          fi
