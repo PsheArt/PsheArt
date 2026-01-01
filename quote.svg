@@ -1,23 +1,22 @@
-<svg width="650" height="222" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="198" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     .title { font: bold 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #58a6ff; }
     .quote { font: italic 16px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="600" height="222" fill="#141321" rx="12" ry="12"/>
+  <rect width="600" height="198" fill="#141321" rx="12" ry="12"/>
 
   <text class="title">
-    <tspan x="30" y="40">Quote of the day (2026-01-01)</tspan>
+    <tspan x="30" y="40">Quote of the day</tspan>
   </text>
   <text class="quote">
-    <tspan x="30" y="70">«A mentor is someone who sees more talent and ability within you,</tspan>
-    <tspan x="30" y="94">than you see in yourself, and helps bring it out of you.» — Bob</tspan>
-    <tspan x="30" y="118">Proctor</tspan>
+    <tspan x="30" y="70">«Some people don't like change, but you need to embrace change if</tspan>
+    <tspan x="30" y="94">the alternative is disaster.» — Elon Musk</tspan>
   </text>
   <text class="translation">
-    <tspan x="30" y="150">«Наставник — это тот, кто видит в вас больше</tspan>
-    <tspan x="30" y="174">таланта и способностей, чем вы видите в себе, и</tspan>
-    <tspan x="30" y="198">помогает раскрыть их в вас.» — Боб Проктор</tspan>
+    <tspan x="30" y="126">«Некоторым людям не нравятся перемены, но вам</tspan>
+    <tspan x="30" y="150">нужно принять перемены, если альтернативой</tspan>
+    <tspan x="30" y="174">является катастрофа.» — Илон Маск</tspan>
   </text>
 </svg>
