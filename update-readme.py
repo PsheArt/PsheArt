@@ -71,7 +71,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     text_color = "#58a6ff"
     translation_color = "#8b949e"
 
-    svg_content = f'''<svg width="6500" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
+    svg_content = f'''<svg width="650" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     .title {{ font: bold 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {text_color}; }}
