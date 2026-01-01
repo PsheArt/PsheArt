@@ -5,18 +5,18 @@
     .quote { font: italic 16px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="600" height="198" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="198" fill="#141321" rx="12" ry="12"/>
 
   <text class="title">
-    <tspan x="30" y="40">Quote of the day</tspan>
+    <tspan x="20" y="40">Quote of the day</tspan>
   </text>
   <text class="quote">
-    <tspan x="30" y="70">«Some people don't like change, but you need to embrace change if</tspan>
-    <tspan x="30" y="94">the alternative is disaster.» — Elon Musk</tspan>
+    <tspan x="30" y="70">«Making money isn't hard in itself... What's hard is to earn it doing</tspan>
+    <tspan x="30" y="94">something worth devoting one's life to.» — Carlos Ruiz Zafon</tspan>
   </text>
   <text class="translation">
-    <tspan x="30" y="126">«Некоторым людям не нравятся перемены, но вам</tspan>
-    <tspan x="30" y="150">нужно принять перемены, если альтернативой</tspan>
-    <tspan x="30" y="174">является катастрофа.» — Илон Маск</tspan>
+    <tspan x="30" y="126">«Зарабатывать деньги само по себе несложно... Трудно их</tspan>
+    <tspan x="30" y="150">заработать, занимаясь тем, чему стоит посвятить свою жизнь.»</tspan>
+    <tspan x="30" y="174">— Карлос Руис Сафон</tspan>
   </text>
 </svg>
