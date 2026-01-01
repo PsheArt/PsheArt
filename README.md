@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="quote.svg" alt="Quote of the day">
+</div>
 
 <div align="center">
 <img src="Welcome.svg" width="90%" height="90%" alt="css-readme">
@@ -5,10 +8,6 @@
 
 <div align="center">
   <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
-</div>
-
-<div align="center">
-  <img src="quote.svg" alt="Quote of the day">
 </div>
 
 ## </> Stack:
