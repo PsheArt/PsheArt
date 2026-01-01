@@ -1,12 +1,13 @@
 <div align="center">
-    <img src="Welcome.svg" width="90%" height="90%" alt="css-readme">
-</div>  
-<div align="center">
-  <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
+  <img src="quote.svg" alt="Quote of the day">
 </div>
 
 <div align="center">
-  <img src="quote.svg" alt="Quote of the day">
+<img src="Welcome.svg" width="90%" height="90%" alt="css-readme">
+</div>  
+
+<div align="center">
+  <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
 </div>
 
 ## </> Stack:
@@ -43,7 +44,7 @@
 
 ## 📈 Streak:
 <p align="center">
-    <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20" alt="GitHub Streak" /></a>
+    <a href="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20"><img src="https://github-readme-streak-stats.herokuapp.com?user=PsheArt&theme=radical&hide_border=false&border_radius=20" alt="GitHub PsheArt's Streak" /></a>
 </p>
 
 
@@ -72,9 +73,9 @@
 ## 📫 Contact:
 <p align="center">
   <a href="https://t.me/psh3art">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" width="85" height="25>
   </a>
   <a href="mailto:pshenichnykh.art@yandex.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" width="80" height="25">
   </a>
 </p>

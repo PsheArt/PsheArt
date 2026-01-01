@@ -72,14 +72,16 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     translation_color = "#8b949e"
 
     svg_content = f'''<svg width="650" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
+
   <style>
     .title {{ font: bold 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {text_color}; }}
     .quote {{ font: italic 16px Georgia, 'Times New Roman', serif; fill: {text_color}; }}
     .translation {{ font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
   </style>
-  <rect width="650" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
+  <rect width="600" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
+
   <text class="title">
-    <tspan x="30" y="40">Quote of the day ({date_str})</tspan>
+    <tspan x="30" y="40">Quote of the day</tspan>
   </text>
   <text class="quote">
 {make_tspans(line1_wrapped, 70, line_height)}
@@ -94,7 +96,6 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
 
     svg_content += "\n</svg>"
     return svg_content
-
 def main():
     quote_en, author_en = get_quote()
     today = datetime.datetime.now().strftime("%Y-%m-%d")
