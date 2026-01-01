@@ -81,7 +81,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
   <rect width="600" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
 
   <text class="title">
-    <tspan x="30" y="40">Quote of the day ({date_str})</tspan>
+    <tspan x="30" y="40">Quote of the day</tspan>
   </text>
   <text class="quote">
 {make_tspans(line1_wrapped, 70, line_height)}
