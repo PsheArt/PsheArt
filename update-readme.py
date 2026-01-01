@@ -35,7 +35,7 @@ def translate(text, source='en', target='ru'):
     except Exception:
         return ""
 
-def wrap_text(text, width=60):
+def wrap_text(text, width=90):
     if not text:
         return ""
     text = " ".join(text.split()) 
@@ -45,7 +45,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     line1 = f"«{quote_en}» — {author_en}"
     line2 = f"«{quote_ru}» — {author_ru}" if quote_ru else ""
 
-    line1_wrapped = wrap_text(line1, 65)
+    line1_wrapped = wrap_text(line1, 90)
     line2_wrapped = wrap_text(line2, 50) if line2 else ""
 
     line1_lines = line1_wrapped.count('\n') + 1
@@ -78,10 +78,10 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     .quote {{ font: italic 16px Georgia, 'Times New Roman', serif; fill: {text_color}; }}
     .translation {{ font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
   </style>
-  <rect width="600" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
+  <rect width="100%" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
 
   <text class="title">
-    <tspan x="30" y="40">Quote of the day</tspan>
+    <tspan x="20" y="40">Quote of the day</tspan>
   </text>
   <text class="quote">
 {make_tspans(line1_wrapped, 70, line_height)}
