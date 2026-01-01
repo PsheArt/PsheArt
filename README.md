@@ -1,9 +1,4 @@
 
-📅 Quote of the day (2026-01-01) <br>
-<sub>Цитата дня:</sub>
-> «It's what you do in the present that will redeem the past and thereby change the future.» — Paulo Coelho <br>
-<sub>(«То, что вы делаете в настоящем, искупит прошлое и тем самым изменит будущее.» — Пауло Коэльо)</sub>
-
 <div align="center">
 <img src="Welcome.svg" width="90%" height="90%" alt="css-readme">
 </div>  
