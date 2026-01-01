@@ -8,15 +8,15 @@
   <rect width="100%" height="198" fill="#141321" rx="12" ry="12"/>
 
   <text class="title">
-    <tspan x="30" y="40">Quote of the day</tspan>
+    <tspan x="20" y="40">Quote of the day</tspan>
   </text>
   <text class="quote">
-    <tspan x="30" y="70">«Some people don't like change, but you need to embrace change if</tspan>
-    <tspan x="30" y="94">the alternative is disaster.» — Elon Musk</tspan>
+    <tspan x="30" y="70">«In all human affairs there are efforts, and there are results, and the strength of the</tspan>
+    <tspan x="30" y="94">effort is the measure of the result.» — James Allen</tspan>
   </text>
   <text class="translation">
-    <tspan x="30" y="126">«Некоторым людям не нравятся перемены, но вам</tspan>
-    <tspan x="30" y="150">нужно принять перемены, если альтернативой</tspan>
-    <tspan x="30" y="174">является катастрофа.» — Илон Маск</tspan>
+    <tspan x="30" y="126">«Во всех человеческих делах есть усилия и есть</tspan>
+    <tspan x="30" y="150">результаты, и сила усилий является мерой</tspan>
+    <tspan x="30" y="174">результата.» — Джеймс Аллен</tspan>
   </text>
 </svg>
