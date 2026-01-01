@@ -45,8 +45,8 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     line1 = f"«{quote_en}» — {author_en}"
     line2 = f"«{quote_ru}» — {author_ru}" if quote_ru else ""
 
-    line1_wrapped = wrap_text(line1, 90)
-    line2_wrapped = wrap_text(line2, 50) if line2 else ""
+    line1_wrapped = wrap_text(line1, 80)
+    line2_wrapped = wrap_text(line2, 90) if line2 else ""
 
     line1_lines = line1_wrapped.count('\n') + 1
     line2_lines = line2_wrapped.count('\n') + 1 if line2 else 0
