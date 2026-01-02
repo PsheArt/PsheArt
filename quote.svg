@@ -1,15 +1,16 @@
-<svg width="650" height="164" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="188" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="164" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="188" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="65.0" y="45">«Intelligence is the ability to adapt to change.» — Stephen</tspan>
-    <tspan x="65.0" y="69">Hawking</tspan>
+    <tspan x="65.0" y="45">«Have the courage to be ignorant of a great number of</tspan>
+    <tspan x="65.0" y="69">things, in order to avoid the calamity of being ignorant of</tspan>
+    <tspan x="65.0" y="93">everything.» — Sydney Smith</tspan>
   </text>
   <text class="translation">
-    <tspan x="65.0" y="101">«Интеллект – это способность адаптироваться к изменениям.» — Стивен</tspan>
-    <tspan x="65.0" y="125">Хокинг</tspan>
+    <tspan x="65.0" y="125">«Имейте мужество не знать многих вещей, чтобы избежать бедствия</tspan>
+    <tspan x="65.0" y="149">незнания всего.» — Сидни Смит</tspan>
   </text>
 </svg>
