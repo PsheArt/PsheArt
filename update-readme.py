@@ -41,25 +41,26 @@ def wrap_text(text, width=90):
     return textwrap.fill(text, width=width, break_long_words=False, break_on_hyphens=False)
 
 def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
-    svg_width = 650  
+    svg_width = 650
     padding_percent = 0.1
-    text_area_width_px = svg_width * (1 - 2 * padding_percent) 
     text_x = svg_width * padding_percent 
 
     line1 = f"«{quote_en}» — {author_en}"
     line2 = f"«{quote_ru}» — {author_ru}" if quote_ru else ""
+
     line1_wrapped = wrap_text(line1, 60)
-    line2_wrapped = wrap_text(line2, 55) if line2 else ""
+    line2_wrapped = wrap_text(line2, 70) if line2 else ""
 
     line1_lines = line1_wrapped.count('\n') + 1
     line2_lines = line2_wrapped.count('\n') + 1 if line2 else 0
 
     line_height = 24
-    top_padding = 30
-    gap_between = 10 if line2 else 0
+    top_padding = 15
+    gap_between = 8 if line2 else 0
+    bottom_padding = 15
 
-    total_height = top_padding + (line1_lines * line_height) + gap_between + (line2_lines * line_height) + 20
-    total_height = max(100, total_height)
+    total_height = top_padding + (line1_lines * line_height) + gap_between + (line2_lines * line_height) + bottom_padding
+    total_height = max(80, total_height)
 
     def escape_xml(text):
         return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -77,23 +78,25 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     translation_color = "#8b949e"
 
     svg_content = f'''<svg width="{svg_width}" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        .quote {{ font: italic 17px Georgia, 'Times New Roman', serif; fill: {text_color}; }}
-        .translation {{ font: 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
-    </style>
+  <style>
+    .quote {{ font: italic 17px Georgia, 'Times New Roman', serif; fill: {text_color}; }}
+    .translation {{ font: 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
+  </style>
   <rect width="100%" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
   <text class="quote">
-    {make_tspans(line1_wrapped, top_padding, line_height, text_x)}
+{make_tspans(line1_wrapped, top_padding, line_height, text_x)}
   </text>'''
+
     if line2:
         y_start = top_padding + line1_lines * line_height + gap_between
         svg_content += f'''
   <text class="translation">
-    {make_tspans(line2_wrapped, y_start, line_height, text_x)}
+{make_tspans(line2_wrapped, y_start, line_height, text_x)}
   </text>'''
 
     svg_content += "\n</svg>"
     return svg_content
+
 def main():
     quote_en, author_en = get_quote()
     today = datetime.datetime.now().strftime("%Y-%m-%d")
