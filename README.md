@@ -1,14 +1,17 @@
 <div align="center">
-  <img src="quote.svg" alt="Quote of the day">
-</div>
-
-<div align="center">
 <img src="Welcome.svg" width="90%" height="90%" alt="css-readme">
 </div>  
 
 <div align="center">
   <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
 </div>
+
+## 💭 Quote of the day :
+<!-- DAILY_QUOTE_START -->
+<div align="center">
+<img src="quote.svg" alt="Quote of the day">
+</div>
+<!-- DAILY_QUOTE_END -->
 
 ## </> Stack:
 <p align="center">
