@@ -55,9 +55,9 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     line2_lines = line2_wrapped.count('\n') + 1 if line2 else 0
 
     line_height = 24
-    top_padding = 15
+    top_padding = 35          
     gap_between = 8 if line2 else 0
-    bottom_padding = 15
+    bottom_padding = 15       
 
     total_height = top_padding + (line1_lines * line_height) + gap_between + (line2_lines * line_height) + bottom_padding
     total_height = max(80, total_height)
@@ -116,7 +116,7 @@ def main():
     </div>'''
 
     full_block = f'''<!-- DAILY_QUOTE_START -->
-                    {quote_image_block}
+    {quote_image_block}
                     <!-- DAILY_QUOTE_END -->'''
 
     try:
@@ -125,11 +125,13 @@ def main():
     except FileNotFoundError:
         content = full_block + "\n"
 
-    pattern = r'<!-- DAILY_QUOTE_START -->.*?<!-- DAILY_QUOTE_END -->'
-    if re.search(pattern, content, flags=re.DOTALL):
+    pattern = r'<!-- DAILY_QUOTE_START -->\s*.*?\s*<!-- DAILY_QUOTE_END -->'
+    match = re.search(pattern, content, flags=re.DOTALL)
+
+    if match:
         content = re.sub(pattern, full_block, content, flags=re.DOTALL)
     else:
-        content = full_block + "\n\n" + content
+        content = full_block + "\n\n" + content.strip()
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
