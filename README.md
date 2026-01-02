@@ -8,7 +8,6 @@
 
 ## 💭 Quote of the day :
 <!-- DAILY_QUOTE_START -->
-    
 <div align="center">
   <img src="quote.svg" alt="Quote of the day">
 </div>
