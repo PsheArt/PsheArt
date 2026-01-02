@@ -55,7 +55,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     line2_lines = line2_wrapped.count('\n') + 1 if line2 else 0
 
     line_height = 24
-    top_padding = 35          
+    top_padding = 45          
     gap_between = 8 if line2 else 0
     bottom_padding = 15       
 
@@ -111,13 +111,14 @@ def main():
     with open("quote.svg", "w", encoding="utf-8") as f:
         f.write(svg_data)
 
-    quote_image_block = '''<div align="center">
+    quote_image_block = '''
+    <div align="center">
     <img src="quote.svg" alt="Quote of the day">
     </div>'''
 
     full_block = f'''<!-- DAILY_QUOTE_START -->
     {quote_image_block}
-                    <!-- DAILY_QUOTE_END -->'''
+    <!-- DAILY_QUOTE_END -->'''
 
     try:
         with open("README.md", "r", encoding="utf-8") as f:
