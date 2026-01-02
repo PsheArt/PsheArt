@@ -10,9 +10,9 @@
 <!-- DAILY_QUOTE_START -->
     
 <div align="center">
-    <img src="quote.svg" alt="Quote of the day">
-    </div>
-    <!-- DAILY_QUOTE_END -->
+  <img src="quote.svg" alt="Quote of the day">
+</div>
+<!-- DAILY_QUOTE_END -->
 
 ## </> Stack:
 <p align="center">

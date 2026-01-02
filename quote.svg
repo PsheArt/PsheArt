@@ -1,17 +1,15 @@
-<svg width="650" height="212" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="164" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
-    .translation { font: 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
+    .translation { font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="212" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="164" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="65.0" y="45">«The major difference between the big shot and the little</tspan>
-    <tspan x="65.0" y="69">shot is the big shot is just a little shot who kept on</tspan>
-    <tspan x="65.0" y="93">shooting.» — Zig Ziglar</tspan>
+    <tspan x="65.0" y="45">«Intelligence is the ability to adapt to change.» — Stephen</tspan>
+    <tspan x="65.0" y="69">Hawking</tspan>
   </text>
   <text class="translation">
-    <tspan x="65.0" y="125">«Основная разница между большой шишкой и маленькой шишкой заключается</tspan>
-    <tspan x="65.0" y="149">в том, что большая шишка – это всего лишь маленькая шишка, которая</tspan>
-    <tspan x="65.0" y="173">продолжает стрелять.» — Зиг Зиглар</tspan>
+    <tspan x="65.0" y="101">«Интеллект – это способность адаптироваться к изменениям.» — Стивен</tspan>
+    <tspan x="65.0" y="125">Хокинг</tspan>
   </text>
 </svg>

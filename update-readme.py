@@ -80,7 +80,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     svg_content = f'''<svg width="{svg_width}" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote {{ font: italic 17px Georgia, 'Times New Roman', serif; fill: {text_color}; }}
-    .translation {{ font: 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
+    .translation {{ font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
   </style>
   <rect width="100%" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
   <text class="quote">
@@ -110,26 +110,17 @@ def main():
     svg_data = generate_svg(quote_en, author_en, quote_ru, author_ru, today)
     with open("quote.svg", "w", encoding="utf-8") as f:
         f.write(svg_data)
+    quote_image_block = '<div align="center">\n  <img src="quote.svg" alt="Quote of the day">\n</div>'
 
-    quote_image_block = '''
-    <div align="center">
-    <img src="quote.svg" alt="Quote of the day">
-    </div>'''
-
-    full_block = f'''<!-- DAILY_QUOTE_START -->
-    {quote_image_block}
-    <!-- DAILY_QUOTE_END -->'''
+    full_block = f'<!-- DAILY_QUOTE_START -->\n{quote_image_block}\n<!-- DAILY_QUOTE_END -->'
 
     try:
         with open("README.md", "r", encoding="utf-8") as f:
             content = f.read()
     except FileNotFoundError:
-        content = full_block + "\n"
-
+        content = ""
     pattern = r'<!-- DAILY_QUOTE_START -->\s*.*?\s*<!-- DAILY_QUOTE_END -->'
-    match = re.search(pattern, content, flags=re.DOTALL)
-
-    if match:
+    if re.search(pattern, content, flags=re.DOTALL):
         content = re.sub(pattern, full_block, content, flags=re.DOTALL)
     else:
         content = full_block + "\n\n" + content.strip()
