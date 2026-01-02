@@ -1,20 +1,21 @@
-<svg width="650" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="174" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     .title { font: bold 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #58a6ff; }
     .quote { font: italic 16px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="160" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="174" fill="#141321" rx="12" ry="12"/>
 
   <text class="title">
     <tspan x="20" y="40">Quote of the day</tspan>
   </text>
   <text class="quote">
-    <tspan x="30" y="70">«Live your life and forget your age.» — Norman Vincent Peale</tspan>
+    <tspan x="30" y="70">«A man with outward courage dares to die: a man with inner courage dares to</tspan>
+    <tspan x="30" y="94">live.» — Lao Tzu</tspan>
   </text>
   <text class="translation">
-    <tspan x="30" y="102">«Живите своей жизнью и забудьте свой возраст.» — Норман</tspan>
-    <tspan x="30" y="126">Винсент Пил</tspan>
+    <tspan x="30" y="126">«Человек с внешним мужеством осмеливается умереть; человек с</tspan>
+    <tspan x="30" y="150">внутренним мужеством осмеливается жить.» — Лао Цзы</tspan>
   </text>
 </svg>
