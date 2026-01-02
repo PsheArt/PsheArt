@@ -55,12 +55,12 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     line2_lines = line2_wrapped.count('\n') + 1 if line2 else 0
 
     line_height = 24
-    line_height_translation = line_height - 9
+    line_height_translation = line_height - 12
     top_padding = 45          
     gap_between = 8 if line2 else 0
     bottom_padding = 15       
 
-    total_height = top_padding + (line1_lines * line_height) + gap_between + (line2_lines * line_height) + bottom_padding
+    total_height = top_padding + (line1_lines * line_height) + gap_between + (line2_lines * line_height_translation) + bottom_padding
     total_height = max(80, total_height)
 
     def escape_xml(text):
