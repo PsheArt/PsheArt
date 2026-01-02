@@ -55,6 +55,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     line2_lines = line2_wrapped.count('\n') + 1 if line2 else 0
 
     line_height = 24
+    line_height_translation = line_height - 9
     top_padding = 45          
     gap_between = 8 if line2 else 0
     bottom_padding = 15       
@@ -88,10 +89,10 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
   </text>'''
 
     if line2:
-        y_start = top_padding + line1_lines * line_height + gap_between
+        y_start = top_padding + line1_lines * line_height_translation + gap_between
         svg_content += f'''
   <text class="translation">
-{make_tspans(line2_wrapped, y_start, line_height, text_x)}
+{make_tspans(line2_wrapped, y_start, line_height_translation, text_x)}
   </text>'''
 
     svg_content += "\n</svg>"
