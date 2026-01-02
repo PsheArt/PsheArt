@@ -1,22 +1,20 @@
-<svg width="650" height="198" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="160" xmlns="http://www.w3.org/2000/svg">
 
   <style>
     .title { font: bold 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #58a6ff; }
     .quote { font: italic 16px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="198" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="160" fill="#141321" rx="12" ry="12"/>
 
   <text class="title">
     <tspan x="20" y="40">Quote of the day</tspan>
   </text>
   <text class="quote">
-    <tspan x="30" y="70">«It's only after you've stepped outside your comfort zone that you begin to</tspan>
-    <tspan x="30" y="94">change, grow, and transform.» — Roy T. Bennett</tspan>
+    <tspan x="30" y="70">«Live your life and forget your age.» — Norman Vincent Peale</tspan>
   </text>
   <text class="translation">
-    <tspan x="30" y="126">«Только после того, как вы выйдете за пределы своей зоны</tspan>
-    <tspan x="30" y="150">комфорта, вы начнете меняться, расти и трансформироваться.»</tspan>
-    <tspan x="30" y="174">— Рой Т. Беннетт</tspan>
+    <tspan x="30" y="102">«Живите своей жизнью и забудьте свой возраст.» — Норман</tspan>
+    <tspan x="30" y="126">Винсент Пил</tspan>
   </text>
 </svg>
