@@ -1,17 +1,17 @@
-<svg width="650" height="176" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="185" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
-    .translation { font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
+    .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="176" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="185" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="65.0" y="45">«This is the real secret of life - to be completely engaged</tspan>
-    <tspan x="65.0" y="69">with what you are doing in the here and now. And instead of</tspan>
-    <tspan x="65.0" y="93">calling it work, realize it is play.» — Alan Watts</tspan>
+    <tspan x="65.0" y="45">«Stuff your eyes with wonder... live as if you'd drop dead</tspan>
+    <tspan x="65.0" y="69">in ten seconds. See the world. It's more fantastic than any</tspan>
+    <tspan x="65.0" y="93">dream made or paid for in factories.» — Ray Bradbury</tspan>
   </text>
   <text class="translation">
-    <tspan x="65.0" y="89">«Это настоящий секрет жизни – быть полностью вовлеченным в то, что вы</tspan>
-    <tspan x="65.0" y="101">делаете здесь и сейчас. И вместо того, чтобы называть это работой,</tspan>
-    <tspan x="65.0" y="113">осознайте, что это игра.» — Алан Уоттс</tspan>
+    <tspan x="65.0" y="125">«Наполни свои глаза чудом... живи так, как будто ты упадешь замертво</tspan>
+    <tspan x="65.0" y="140">через десять секунд. Увидеть мир. Это более фантастично, чем любая</tspan>
+    <tspan x="65.0" y="155">мечта, созданная или оплаченная на фабриках.» — Рэй Брэдбери</tspan>
   </text>
 </svg>
