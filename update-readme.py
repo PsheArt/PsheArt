@@ -55,7 +55,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     line2_lines = line2_wrapped.count('\n') + 1 if line2 else 0
 
     line_height = 24
-    line_height_translation = line_height - 12
+    line_height_translation = line_height - 9
     top_padding = 45          
     gap_between = 8 if line2 else 0
     bottom_padding = 15       
@@ -81,7 +81,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
     svg_content = f'''<svg width="{svg_width}" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote {{ font: italic 17px Georgia, 'Times New Roman', serif; fill: {text_color}; }}
-    .translation {{ font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
+    .translation {{ font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: {translation_color}; }}
   </style>
   <rect width="100%" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
   <text class="quote">
@@ -89,7 +89,7 @@ def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
   </text>'''
 
     if line2:
-        y_start = top_padding + line1_lines * line_height_translation + gap_between
+        y_start = top_padding + line1_lines * line_height + gap_between
         svg_content += f'''
   <text class="translation">
 {make_tspans(line2_wrapped, y_start, line_height_translation, text_x)}
