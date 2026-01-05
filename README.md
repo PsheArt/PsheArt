@@ -6,18 +6,23 @@
   <img src="Profile.svg" width="90%" height="90%" alt="css-readme">
 </div>
 
-## 💭 Quote of the day :
+## 💭 Quote of the day:
 <!-- DAILY_QUOTE_START -->
 <div align="center">
   <img src="quote.svg" alt="Quote of the day">
 </div>
 <!-- DAILY_QUOTE_END -->
 
+## 📃 Weekly definition:
 <!-- WEEKLY_TERM_START -->
 <div align="center">
-  <img src="term.svg" alt="Term of the week">
-</div>
+  <blockquote>
+    <strong>Term: Error</strong>
+<br><small><strong>Description:</strong> Could not load terms from Gist.</small>
+<br><small><strong>Перевод:</strong> Не удалось загрузить термины из Gist.</small>
 <!-- Updated: 2026-01-05 -->
+  </blockquote>
+</div>
 <!-- WEEKLY_TERM_END -->
 
 ## </> Stack:
