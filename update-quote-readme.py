@@ -41,7 +41,7 @@ def wrap_text(text, width=90):
     return textwrap.fill(text, width=width, break_long_words=False, break_on_hyphens=False)
 
 def generate_svg(quote_en, author_en, quote_ru, author_ru, date_str):
-    svg_width = 650
+    svg_width = 600
     padding_percent = 0.1
     text_x = svg_width * padding_percent 
 
