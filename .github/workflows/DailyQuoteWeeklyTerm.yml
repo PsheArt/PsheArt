@@ -24,7 +24,7 @@ jobs:
 
       - name: Run update-term script
         env:
-          GIST_URL: ${{ secrets.GIST_URL }}
+          GIST_URL: ${{ secrets.GIST_TERMS_URL }}
         run: python3 update-terms-readme.py
 
       - name: Commit and push
