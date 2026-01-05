@@ -1,17 +1,16 @@
-<svg width="650" height="185" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="161" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="185" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="161" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="65.0" y="45">«Give credit where credit is due: simply said, if you want</tspan>
-    <tspan x="65.0" y="69">loyalty and best effort, you must be thoughtful.» — Estee</tspan>
-    <tspan x="65.0" y="93">Lauder</tspan>
+    <tspan x="65.0" y="45">«While we may not be able to control all that happens to us,</tspan>
+    <tspan x="65.0" y="69">we can control what happens inside us.» — Benjamin Franklin</tspan>
   </text>
   <text class="translation">
-    <tspan x="65.0" y="125">«Отдавайте должное там, где это необходимо: проще говоря, если вы</tspan>
-    <tspan x="65.0" y="140">хотите лояльности и приложенных усилий, вы должны быть вдумчивыми.» —</tspan>
-    <tspan x="65.0" y="155">Эсте Лаудер</tspan>
+    <tspan x="65.0" y="101">«Хотя мы, возможно, не в состоянии контролировать все, что с нами</tspan>
+    <tspan x="65.0" y="116">происходит, мы можем контролировать то, что происходит внутри нас.» —</tspan>
+    <tspan x="65.0" y="131">Бенджамин Франклин</tspan>
   </text>
 </svg>
