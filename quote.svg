@@ -1,13 +1,16 @@
-<svg width="650" height="104" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="161" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
-    .translation { font: 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
+    .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="104" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="161" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="65.0" y="45">«In the middle of chaos lies opportunity.» — Bruce Lee</tspan>
+    <tspan x="65.0" y="45">«While we may not be able to control all that happens to us,</tspan>
+    <tspan x="65.0" y="69">we can control what happens inside us.» — Benjamin Franklin</tspan>
   </text>
   <text class="translation">
-    <tspan x="65.0" y="65">«Посреди хаоса скрываются возможности.» — Брюс Ли</tspan>
+    <tspan x="65.0" y="101">«Хотя мы, возможно, не в состоянии контролировать все, что с нами</tspan>
+    <tspan x="65.0" y="116">происходит, мы можем контролировать то, что происходит внутри нас.» —</tspan>
+    <tspan x="65.0" y="131">Бенджамин Франклин</tspan>
   </text>
 </svg>
