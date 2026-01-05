@@ -1,16 +1,15 @@
-<svg width="600" height="170" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="170" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«When the mind is calm, how quickly, how smoothly, how</tspan>
-    <tspan x="60.0" y="69">beautifully you will perceive everything.» — Paramahansa</tspan>
-    <tspan x="60.0" y="93">Yogananda</tspan>
+    <tspan x="60.0" y="45">«Given the choice between the experience of pain and</tspan>
+    <tspan x="60.0" y="69">nothing, I would choose pain.» — William Faulkner</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="125">«Когда ум спокоен, как быстро, как плавно, как красиво вы все</tspan>
-    <tspan x="60.0" y="140">воспримете.» — Парамаханса Йогананда</tspan>
+    <tspan x="60.0" y="101">«Если бы у меня был выбор между ощущением боли и ничем, я бы выбрал</tspan>
+    <tspan x="60.0" y="116">боль.» — Уильям Фолкнер</tspan>
   </text>
 </svg>
