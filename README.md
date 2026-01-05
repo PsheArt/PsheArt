@@ -17,10 +17,12 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Error</strong>
-<br><small><strong>Description:</strong> Could not load terms from Gist.</small>
-<br><small><strong>Перевод:</strong> Не удалось загрузить термины из Gist.</small>
-<!-- Updated: 2025-12-29 -->
+    <strong>Term: Algorithm</strong>
+<br><small><strong>Description:</strong> A step-by-step procedure or formula for solving a problem.</small>
+<br><small><strong>Перевод:</strong> Алгоритм: пошаговая процедура или формула для решения задачи.</small>
+<br><small><strong>Ссылка:</strong> <a href="https://en.wikipedia.org/wiki/Algorithm" target="_blank">📖 Learn more</a></small>
+<br><pre><code>int BinarySearch(int[] arr, int target) { /* реализация */ }</code></pre>
+<!-- Updated: 2026-01-05 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
