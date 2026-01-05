@@ -2,9 +2,96 @@ import urllib.request
 import json
 import re
 import os
+import textwrap
 from datetime import datetime
 
 GIST_URL = os.getenv("GIST_URL", "https://gist.githubusercontent.com/.../raw/...")
+def wrap_text(text, width=70):
+    if not text:
+        return ""
+    text = " ".join(text.split())
+    return textwrap.fill(text, width=width, break_long_words=False, break_on_hyphens=False)
+
+def generate_term_svg(term_data):
+    term_line = f"Term: {term_data['termin']}"
+    desc_line = f"Description: {term_data['description']}"
+    trans_line = f"Перевод: {term_data['translate_ru']}" if term_data['translate_ru'] else ""
+    ref_line = f"Link: {term_data['reference']}" if term_data['reference'] else ""
+
+    term_wrapped = wrap_text(term_line, 70)
+    desc_wrapped = wrap_text(desc_line, 70)
+    trans_wrapped = wrap_text(trans_line, 70) if trans_line else ""
+    ref_wrapped = wrap_text(ref_line, 70) if ref_line else ""
+
+    term_lines = term_wrapped.count('\n') + 1
+    desc_lines = desc_wrapped.count('\n') + 1
+    trans_lines = trans_wrapped.count('\n') + 1 if trans_wrapped else 0
+    ref_lines = ref_wrapped.count('\n') + 1 if ref_wrapped else 0
+
+    line_height = 20
+    top_padding = 20
+    gap = 8
+
+    total_height = top_padding + (term_lines * line_height) + gap + (desc_lines * line_height)
+    if trans_wrapped:
+        total_height += gap + (trans_lines * line_height)
+    if ref_wrapped:
+        total_height += gap + (ref_lines * line_height)
+    total_height += 20 
+
+    total_height = max(120, total_height)
+
+    def escape_xml(text):
+        return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    def make_tspans(text, start_y, lh, x_pos):
+        lines = text.split('\n')
+        tspans = []
+        for i, line in enumerate(lines):
+            y = start_y + i * lh
+            tspans.append(f'    <tspan x="{x_pos}" y="{y}">{escape_xml(line)}</tspan>')
+        return "\n".join(tspans)
+
+    svg_width = 650
+    padding_percent = 0.05
+    text_x = svg_width * padding_percent
+
+    bg_color = "#141321"
+    text_color = "#58a6ff"
+    translation_color = "#8b949e"
+    link_color = "#7ee787"
+
+    svg_content = f'''<svg width="{svg_width}" height="{total_height}" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .term {{ font: bold 16px sans-serif; fill: {text_color}; }}
+    .desc {{ font: 15px sans-serif; fill: {text_color}; }}
+    .trans {{ font: italic 14px sans-serif; fill: {translation_color}; }}
+    .ref {{ font: 13px sans-serif; fill: {link_color}; }}
+  </style>
+  <rect width="100%" height="{total_height}" fill="{bg_color}" rx="12" ry="12"/>
+  <text class="term">
+{make_tspans(term_wrapped, top_padding, line_height, text_x)}
+  </text>
+  <text class="desc">
+{make_tspans(desc_wrapped, top_padding + term_lines * line_height + gap, line_height, text_x)}
+  </text>'''
+
+    current_y = top_padding + (term_lines + desc_lines) * line_height + gap * 2
+    if trans_wrapped:
+        svg_content += f'''
+  <text class="trans">
+{make_tspans(trans_wrapped, current_y, line_height, text_x)}
+  </text>'''
+        current_y += trans_lines * line_height + gap
+
+    if ref_wrapped:
+        svg_content += f'''
+  <text class="ref">
+{make_tspans(ref_wrapped, current_y, line_height, text_x)}
+  </text>'''
+
+    svg_content += "\n</svg>"
+    return svg_content
 
 def fetch_terms_from_gist(url):
     try:
@@ -19,7 +106,6 @@ def get_current_week():
     return datetime.now().strftime("%Y-%U")
 
 def should_update_term(readme_content):
-    """Проверяет, обновлялся ли термин в этой неделе, по содержимому README.md"""
     pattern = r'<!-- WEEKLY_TERM_START -->.*?<!-- Updated: ([\d-]+) -->.*?<!-- WEEKLY_TERM_END -->'
     match = re.search(pattern, readme_content, re.DOTALL)
     if match:
@@ -70,7 +156,6 @@ def main():
         content = ""
 
     if not should_update_term(content):
-        print("Week unchanged. Skipping term update.")
         return
     
     term_data = get_weekly_term()
