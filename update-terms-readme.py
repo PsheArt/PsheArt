@@ -5,7 +5,7 @@ import os
 import textwrap
 from datetime import datetime
 
-GIST_URL = os.getenv("GIST_URL", "https://gist.githubusercontent.com/.../raw/...")
+GIST_URL = os.getenv("GIST_TERMS_URL", "https://gist.githubusercontent.com/.../raw/...")
 def wrap_text(text, width=70):
     if not text:
         return ""
