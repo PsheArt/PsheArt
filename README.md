@@ -18,12 +18,12 @@
 <div align="center">
   <blockquote>
     <strong>Term: Algorithm</strong>
-<br><small><strong>Description:</strong> A step-by-step procedure or formula for solving a problem.</small>
-<br><small><strong>Translate(RU):</strong> Алгоритм: пошаговая процедура или формула для решения задачи.</small>
+<br><small><strong>Description:</strong> A finite sequence of mathematically rigorous instructions, typically used to solve a class of specific problems or to perform a computation.</small>
+<br><small><strong>Translate(RU):</strong> Алгоритм — конечная последовательность строго определённых инструкций, предназначенная для решения определённого класса задач или выполнения вычислений.</small>
 <br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Algorithm" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>int BinarySearch(int[] arr, int target) { /* реализация */ }</code></pre>
-<!-- Updated: 2025-12-29 -->
+<br><pre><code>int GCD(int a, int b) { while (b != 0) { int temp = b; b = a % b; a = temp; } return a; }</code></pre>
+<!-- Updated: 2026-01-05 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
