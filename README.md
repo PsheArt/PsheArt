@@ -23,7 +23,7 @@
 <br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Algorithm" target="_blank">Learn more</a></small>
 <br>
 <br><pre><code>int BinarySearch(int[] arr, int target) { /* реализация */ }</code></pre>
-<!-- Updated: 2025-12-22 -->
+<!-- Updated: 2026-01-05 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
