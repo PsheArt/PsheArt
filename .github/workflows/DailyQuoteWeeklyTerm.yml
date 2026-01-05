@@ -1,5 +1,4 @@
-name: Daily Quote
-
+name: Daily Quote & Weekly Term
 on:
   schedule:
     - cron: '0 1 * * *'  
@@ -21,12 +20,17 @@ jobs:
         run: pip install deep-translator
 
       - name: Run update script
-        run: python3 update-readme.py
+        run: python3 update-quote-readme.py
+
+      - name: Run update-term script
+        env:
+          GIST_URL: ${{ secrets.GIST_URL }}
+        run: python3 update-term-readme.py
 
       - name: Commit and push
         run: |
           git config --global user.name "PsheArt"
           git config --global user.email "71920004+PsheArt@users.noreply.github.com"
-          git add README.md quote.svg
-          git commit -m "Quote of the day: $(date +%Y-%m-%d)"
+          git add README.md quote.svg term.svg  
+          git commit -m "Update daily quote and weekly term: $(date +%Y-%m-%d)" || exit 0
           git push

@@ -13,6 +13,13 @@
 </div>
 <!-- DAILY_QUOTE_END -->
 
+<!-- WEEKLY_TERM_START -->
+<div align="center">
+  <img src="term.svg" alt="Term of the week">
+</div>
+<!-- Updated: 2026-01-05 -->
+<!-- WEEKLY_TERM_END -->
+
 ## </> Stack:
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" width="75" height="50">
