@@ -168,10 +168,11 @@ def main():
     if term_data["description"]:
         lines.append(f'<br><small><strong>Description:</strong> {term_data["description"]}</small>')
     if term_data["translate_ru"]:
-        lines.append(f'<br><small><strong>Перевод:</strong> {term_data["translate_ru"]}</small>')
+        lines.append(f'<br><small><strong>Translate(RU):</strong> {term_data["translate_ru"]}</small>')
     if term_data["reference"]:
-        lines.append(f'<br><small><strong>Ссылка:</strong> <a href="{term_data["reference"]}" target="_blank">📖 Learn more</a></small>')
+        lines.append(f'<br><small><strong>Reference:</strong> <a href="{term_data["reference"]}" target="_blank">Learn more</a></small>')
     if term_data["example"]:
+        lines.append(f'<br>')
         example_safe = (
             term_data["example"]
             .replace("&", "&amp;")
