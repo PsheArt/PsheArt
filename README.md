@@ -20,7 +20,7 @@
     <strong>Term: Error</strong>
 <br><small><strong>Description:</strong> Could not load terms from Gist.</small>
 <br><small><strong>Перевод:</strong> Не удалось загрузить термины из Gist.</small>
-<!-- Updated: 2026-01-05 -->
+<!-- Updated: 2025-12-29 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
