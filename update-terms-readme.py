@@ -5,7 +5,7 @@ import os
 import textwrap
 from datetime import datetime
 
-GIST_URL = os.getenv("GIST_TERMS", "https://gist.githubusercontent.com/.../raw/...")
+GIST_URL = os.getenv("GIST_URL", "https://gist.githubusercontent.com/.../raw/...")
 def wrap_text(text, width=70):
     if not text:
         return ""
@@ -94,6 +94,7 @@ def generate_term_svg(term_data):
     return svg_content
 
 def fetch_terms_from_gist(url):
+    print(f"Fetching from URL: {url}") 
     try:
         with urllib.request.urlopen(url, timeout=10) as response:
             data = json.loads(response.read().decode())
@@ -117,6 +118,7 @@ def should_update_term(readme_content):
 
 def get_weekly_term():
     terms = fetch_terms_from_gist(GIST_URL)
+
     if not terms:
         return {
             "termin": "Error",
