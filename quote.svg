@@ -1,14 +1,15 @@
-<svg width="600" height="131" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="131" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Conflict cannot survive without your participation.» —</tspan>
-    <tspan x="60.0" y="69">Wayne Dyer</tspan>
+    <tspan x="60.0" y="45">«The only thing worse than being blind is having sight but</tspan>
+    <tspan x="60.0" y="69">no vision.» — Helen Keller</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="101">«Конфликт не может существовать без вашего участия.» — Уэйн Дайер</tspan>
+    <tspan x="60.0" y="101">«Единственное, что может быть хуже слепоты, — это иметь зрение, но не</tspan>
+    <tspan x="60.0" y="116">видеть.» — Хелен Келлер</tspan>
   </text>
 </svg>
