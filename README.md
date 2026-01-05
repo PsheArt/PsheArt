@@ -16,9 +16,13 @@
 ## 📃 Weekly definition:
 <!-- WEEKLY_TERM_START -->
 <div align="center">
-  <img src="term.svg" alt="Term of the week">
+  <blockquote>
+    <strong>Term: Error</strong>
+<br><small><strong>Description:</strong> Could not load terms from Gist.</small>
+<br><small><strong>Перевод:</strong> Не удалось загрузить термины из Gist.</small>
+<!-- Updated: 2026-01-05 -->
+  </blockquote>
 </div>
-<!-- Updated: 2025-12-29 -->
 <!-- WEEKLY_TERM_END -->
 
 ## </> Stack:
