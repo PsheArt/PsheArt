@@ -18,7 +18,7 @@
 <div align="center">
   <img src="term.svg" alt="Term of the week">
 </div>
-<!-- Updated: 2026-01-05 -->
+<!-- Updated: 2025-12-29 -->
 <!-- WEEKLY_TERM_END -->
 
 ## </> Stack:
