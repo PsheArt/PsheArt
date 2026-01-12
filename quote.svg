@@ -1,13 +1,15 @@
-<svg width="600" height="107" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="107" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Belief creates the actual fact.» — William James</tspan>
+    <tspan x="60.0" y="45">«Being ignorant is not so much a shame, as being unwilling</tspan>
+    <tspan x="60.0" y="69">to learn.» — Benjamin Franklin</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="77">«Вера создает действительный факт.» — Уильям Джеймс</tspan>
+    <tspan x="60.0" y="101">«Быть невежественным – не столько стыдно, сколько нежелание учиться.»</tspan>
+    <tspan x="60.0" y="116">— Бенджамин Франклин</tspan>
   </text>
 </svg>
