@@ -1,16 +1,15 @@
-<svg width="600" height="170" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="170" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«A single act of kindness throws out roots in all</tspan>
-    <tspan x="60.0" y="69">directions, and the roots spring up and make new trees.» —</tspan>
-    <tspan x="60.0" y="93">Amelia Earhart</tspan>
+    <tspan x="60.0" y="45">«Nothing external to you has any power over you.» — Ralph</tspan>
+    <tspan x="60.0" y="69">Waldo Emerson</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="125">«Одно доброе дело пускает корни во всех направлениях, и корни</tspan>
-    <tspan x="60.0" y="140">вырастают и образуют новые деревья.» — Амелия Эрхарт</tspan>
+    <tspan x="60.0" y="101">«Ничто внешнее по отношению к вам не имеет над вами никакой власти.» —</tspan>
+    <tspan x="60.0" y="116">Ральф Уолдо Эмерсон</tspan>
   </text>
 </svg>
