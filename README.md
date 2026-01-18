@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: API</strong>
-<br><small><strong>Description:</strong> Application Programming Interface — a set of definitions and protocols that allow one software component to communicate with or use the services of another.</small>
-<br><small><strong>Translate(RU):</strong> API (Интерфейс прикладного программирования) — набор определений и протоколов, позволяющих одному программному компоненту взаимодействовать с другим или использовать его сервисы.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/API" target="_blank">Learn more</a></small>
+    <strong>Term: Asynchronous Programming</strong>
+<br><small><strong>Description:</strong> A programming paradigm that enables a unit of work to run independently of the main program flow, often used to avoid blocking operations.</small>
+<br><small><strong>Translate(RU):</strong> Асинхронное программирование — парадигма, позволяющая блоку кода выполняться независимо от основного потока программы, часто используемая для избежания блокирующих операций.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Asynchronous_programming" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>var client = new HttpClient(); var response = await client.GetAsync("https://api.example.com/data");</code></pre>
-<!-- Updated: 2026-01-11 -->
+<br><pre><code>public async Task&lt;string&gt; GetDataAsync() =&gt; await httpClient.GetStringAsync("https://api.example.com/data");</code></pre>
+<!-- Updated: 2026-01-18 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
