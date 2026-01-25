@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Asynchronous Programming</strong>
-<br><small><strong>Description:</strong> A programming paradigm that enables a unit of work to run independently of the main program flow, often used to avoid blocking operations.</small>
-<br><small><strong>Translate(RU):</strong> Асинхронное программирование — парадигма, позволяющая блоку кода выполняться независимо от основного потока программы, часто используемая для избежания блокирующих операций.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Asynchronous_programming" target="_blank">Learn more</a></small>
+    <strong>Term: Binary Tree</strong>
+<br><small><strong>Description:</strong> A tree data structure in which each node has at most two children, referred to as the left child and the right child.</small>
+<br><small><strong>Translate(RU):</strong> Бинарное дерево — древовидная структура данных, в которой каждый узел имеет не более двух потомков: левого и правого.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Binary_tree" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public async Task&lt;string&gt; GetDataAsync() =&gt; await httpClient.GetStringAsync("https://api.example.com/data");</code></pre>
-<!-- Updated: 2026-01-18 -->
+<br><pre><code>public class TreeNode { public int Val; public TreeNode Left; public TreeNode Right; }</code></pre>
+<!-- Updated: 2026-01-25 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
