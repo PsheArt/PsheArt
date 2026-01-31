@@ -1,16 +1,15 @@
-<svg width="600" height="161" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="161" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«If you set your goals ridiculously high and its a failure,</tspan>
-    <tspan x="60.0" y="69">you will fail above everyone elses success.» — James Cameron</tspan>
+    <tspan x="60.0" y="45">«No tree, it is said, can grow to heaven unless its roots</tspan>
+    <tspan x="60.0" y="69">reach down to hell.» — Carl Jung</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="101">«Если вы поставите перед собой смехотворно высокие цели и это потерпит</tspan>
-    <tspan x="60.0" y="116">неудачу, вы потерпите неудачу выше успеха всех остальных.» — Джеймс</tspan>
-    <tspan x="60.0" y="131">Кэмерон</tspan>
+    <tspan x="60.0" y="101">«Говорят, что ни одно дерево не может вырасти до небес, если его корни</tspan>
+    <tspan x="60.0" y="116">не достигнут ада.» — Карл Юнг</tspan>
   </text>
 </svg>
