@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Binary Tree</strong>
-<br><small><strong>Description:</strong> A tree data structure in which each node has at most two children, referred to as the left child and the right child.</small>
-<br><small><strong>Translate(RU):</strong> Бинарное дерево — древовидная структура данных, в которой каждый узел имеет не более двух потомков: левого и правого.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Binary_tree" target="_blank">Learn more</a></small>
+    <strong>Term: Boilerplate Code</strong>
+<br><small><strong>Description:</strong> Sections of code that are repeated in multiple places with little or no modification.</small>
+<br><small><strong>Translate(RU):</strong> Шаблонный код — участки кода, повторяющиеся в нескольких местах с минимальными или без изменений.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Boilerplate_code" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public class TreeNode { public int Val; public TreeNode Left; public TreeNode Right; }</code></pre>
-<!-- Updated: 2026-01-25 -->
+<br><pre><code>public class Program { public static void Main(string[] args) { } }</code></pre>
+<!-- Updated: 2026-02-01 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
