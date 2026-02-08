@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Boilerplate Code</strong>
-<br><small><strong>Description:</strong> Sections of code that are repeated in multiple places with little or no modification.</small>
-<br><small><strong>Translate(RU):</strong> Шаблонный код — участки кода, повторяющиеся в нескольких местах с минимальными или без изменений.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Boilerplate_code" target="_blank">Learn more</a></small>
+    <strong>Term: Cache</strong>
+<br><small><strong>Description:</strong> A hardware or software component that stores data so future requests for that data can be served faster.</small>
+<br><small><strong>Translate(RU):</strong> Кэш — аппаратный или программный компонент, хранящий данные для ускорения последующих запросов к ним.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Cache_(computing)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public class Program { public static void Main(string[] args) { } }</code></pre>
-<!-- Updated: 2026-02-01 -->
+<br><pre><code>var cache = new MemoryCache(new MemoryCacheOptions()); cache.Set("key", value);</code></pre>
+<!-- Updated: 2026-02-08 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
