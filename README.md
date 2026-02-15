@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Cache</strong>
-<br><small><strong>Description:</strong> A hardware or software component that stores data so future requests for that data can be served faster.</small>
-<br><small><strong>Translate(RU):</strong> Кэш — аппаратный или программный компонент, хранящий данные для ускорения последующих запросов к ним.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Cache_(computing)" target="_blank">Learn more</a></small>
+    <strong>Term: Callback</strong>
+<br><small><strong>Description:</strong> A function passed as an argument to another function, to be executed after some operation completes.</small>
+<br><small><strong>Translate(RU):</strong> Обратный вызов — функция, передаваемая в качестве аргумента другой функции для выполнения после завершения определённой операции.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Callback_(computer_programming)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>var cache = new MemoryCache(new MemoryCacheOptions()); cache.Set("key", value);</code></pre>
-<!-- Updated: 2026-02-08 -->
+<br><pre><code>Action callback = () =&gt; Console.WriteLine("Done"); SomeMethod(callback);</code></pre>
+<!-- Updated: 2026-02-15 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
