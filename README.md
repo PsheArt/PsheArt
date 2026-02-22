@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Callback</strong>
-<br><small><strong>Description:</strong> A function passed as an argument to another function, to be executed after some operation completes.</small>
-<br><small><strong>Translate(RU):</strong> Обратный вызов — функция, передаваемая в качестве аргумента другой функции для выполнения после завершения определённой операции.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Callback_(computer_programming)" target="_blank">Learn more</a></small>
+    <strong>Term: Class</strong>
+<br><small><strong>Description:</strong> A blueprint for creating objects in object-oriented programming, defining their properties and behaviors.</small>
+<br><small><strong>Translate(RU):</strong> Класс — шаблон для создания объектов в объектно-ориентированном программировании, определяющий их свойства и поведение.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Class_(computer_programming)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>Action callback = () =&gt; Console.WriteLine("Done"); SomeMethod(callback);</code></pre>
-<!-- Updated: 2026-02-15 -->
+<br><pre><code>public class Car { public string Model { get; set; } public void Start() =&gt; Console.WriteLine("Engine on"); }</code></pre>
+<!-- Updated: 2026-02-22 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
