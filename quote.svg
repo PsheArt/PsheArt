@@ -1,15 +1,17 @@
-<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="185" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="185" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Values are like fingerprints. Nobody's are the same, but</tspan>
-    <tspan x="60.0" y="69">you leave 'em all over everything you do.» — Elvis Presley</tspan>
+    <tspan x="60.0" y="45">«Nothing gives one person so much advantage over another as</tspan>
+    <tspan x="60.0" y="69">to remain always cool and unruffled under all</tspan>
+    <tspan x="60.0" y="93">circumstances.» — Thomas Jefferson</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="101">«Ценности подобны отпечаткам пальцев. Никто не похож на других, но ты</tspan>
-    <tspan x="60.0" y="116">оставляешь их во всем, что делаешь.» — Элвис Пресли</tspan>
+    <tspan x="60.0" y="125">«Ничто не дает одному человеку такого большого преимущества перед</tspan>
+    <tspan x="60.0" y="140">другим, как оставаться всегда хладнокровным и невозмутимым при любых</tspan>
+    <tspan x="60.0" y="155">обстоятельствах.» — Томас Джефферсон</tspan>
   </text>
 </svg>
