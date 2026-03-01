@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Class</strong>
-<br><small><strong>Description:</strong> A blueprint for creating objects in object-oriented programming, defining their properties and behaviors.</small>
-<br><small><strong>Translate(RU):</strong> Класс — шаблон для создания объектов в объектно-ориентированном программировании, определяющий их свойства и поведение.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Class_(computer_programming)" target="_blank">Learn more</a></small>
+    <strong>Term: Closure</strong>
+<br><small><strong>Description:</strong> A function that captures and retains access to variables from its lexical scope, even after that scope has exited.</small>
+<br><small><strong>Translate(RU):</strong> Замыкание — функция, захватывающая и сохраняющая доступ к переменным из своей лексической области видимости даже после её завершения.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Closure_(computer_programming)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public class Car { public string Model { get; set; } public void Start() =&gt; Console.WriteLine("Engine on"); }</code></pre>
-<!-- Updated: 2026-02-22 -->
+<br><pre><code>Func&lt;int&gt; CreateAdder(int x) =&gt; () =&gt; x + 10;</code></pre>
+<!-- Updated: 2026-03-01 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
