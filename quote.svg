@@ -1,13 +1,15 @@
-<svg width="600" height="107" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="107" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Never settle for the crumbs of life.» — Og Mandino</tspan>
+    <tspan x="60.0" y="45">«All know that the drop merges into the ocean, but few know</tspan>
+    <tspan x="60.0" y="69">that the ocean merges into the drop.» — Kabir</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="77">«Никогда не соглашайтесь на крохи жизни.» — Ог Мандино</tspan>
+    <tspan x="60.0" y="101">«Все знают, что капля сливается с океаном, но немногие знают, что</tspan>
+    <tspan x="60.0" y="116">океан сливается с каплей.» — Кабир</tspan>
   </text>
 </svg>
