@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Closure</strong>
-<br><small><strong>Description:</strong> A function that captures and retains access to variables from its lexical scope, even after that scope has exited.</small>
-<br><small><strong>Translate(RU):</strong> Замыкание — функция, захватывающая и сохраняющая доступ к переменным из своей лексической области видимости даже после её завершения.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Closure_(computer_programming)" target="_blank">Learn more</a></small>
+    <strong>Term: Compiler</strong>
+<br><small><strong>Description:</strong> Software that translates source code written in a high-level programming language into a lower-level language (e.g., machine code) to create an executable program.</small>
+<br><small><strong>Translate(RU):</strong> Компилятор — программа, переводящая исходный код, написанный на высокоуровневом языке программирования, в низкоуровневый язык (например, машинный код) для создания исполняемой программы.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Compiler" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>Func&lt;int&gt; CreateAdder(int x) =&gt; () =&gt; x + 10;</code></pre>
-<!-- Updated: 2026-03-01 -->
+<br><pre><code>// Компиляция: csc Program.cs → Program.exe</code></pre>
+<!-- Updated: 2026-03-08 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
