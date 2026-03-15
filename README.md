@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Compiler</strong>
-<br><small><strong>Description:</strong> Software that translates source code written in a high-level programming language into a lower-level language (e.g., machine code) to create an executable program.</small>
-<br><small><strong>Translate(RU):</strong> Компилятор — программа, переводящая исходный код, написанный на высокоуровневом языке программирования, в низкоуровневый язык (например, машинный код) для создания исполняемой программы.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Compiler" target="_blank">Learn more</a></small>
+    <strong>Term: Constructor</strong>
+<br><small><strong>Description:</strong> A special method used to initialize a newly created object.</small>
+<br><small><strong>Translate(RU):</strong> Конструктор — специальный метод, используемый для инициализации вновь созданного объекта.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>// Компиляция: csc Program.cs → Program.exe</code></pre>
-<!-- Updated: 2026-03-08 -->
+<br><pre><code>public class Person { public Person(string name) { Name = name; } public string Name { get; } }</code></pre>
+<!-- Updated: 2026-03-15 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
