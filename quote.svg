@@ -1,15 +1,17 @@
-<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="185" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="185" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«The world only exists in your eyes. You can make it as big</tspan>
-    <tspan x="60.0" y="69">or as small as you want.» — F. Scott Fitzgerald</tspan>
+    <tspan x="60.0" y="45">«It's beautiful to be alone. To be alone does not mean to be</tspan>
+    <tspan x="60.0" y="69">lonely. It means the mind is not influenced and contaminated</tspan>
+    <tspan x="60.0" y="93">by society.» — Jiddu Krishnamurti</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="101">«Мир существует только в твоих глазах. Вы можете сделать его настолько</tspan>
-    <tspan x="60.0" y="116">большим или маленьким, насколько захотите.» — Ф. Скотт Фицджеральд</tspan>
+    <tspan x="60.0" y="125">«Прекрасно быть одному. Быть одному не значит быть одиноким. Это</tspan>
+    <tspan x="60.0" y="140">означает, что ум не находится под влиянием и не загрязняется</tspan>
+    <tspan x="60.0" y="155">обществом.» — Джидду Кришнамурти</tspan>
   </text>
 </svg>
