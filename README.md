@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Constructor</strong>
-<br><small><strong>Description:</strong> A special method used to initialize a newly created object.</small>
-<br><small><strong>Translate(RU):</strong> Конструктор — специальный метод, используемый для инициализации вновь созданного объекта.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)" target="_blank">Learn more</a></small>
+    <strong>Term: Database</strong>
+<br><small><strong>Description:</strong> An organized collection of structured information, typically stored electronically in a computer system.</small>
+<br><small><strong>Translate(RU):</strong> База данных — упорядоченный набор структурированной информации, обычно хранимой в электронном виде в компьютерной системе.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Database" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public class Person { public Person(string name) { Name = name; } public string Name { get; } }</code></pre>
-<!-- Updated: 2026-03-15 -->
+<br><pre><code>using var connection = new NpgsqlConnection(connectionString);</code></pre>
+<!-- Updated: 2026-03-22 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
