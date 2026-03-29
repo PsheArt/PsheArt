@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Database</strong>
-<br><small><strong>Description:</strong> An organized collection of structured information, typically stored electronically in a computer system.</small>
-<br><small><strong>Translate(RU):</strong> База данных — упорядоченный набор структурированной информации, обычно хранимой в электронном виде в компьютерной системе.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Database" target="_blank">Learn more</a></small>
+    <strong>Term: Debugging</strong>
+<br><small><strong>Description:</strong> The process of identifying and removing errors or bugs from software code.</small>
+<br><small><strong>Translate(RU):</strong> Отладка — процесс выявления и устранения ошибок (багов) в программном коде.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Debugging" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>using var connection = new NpgsqlConnection(connectionString);</code></pre>
-<!-- Updated: 2026-03-22 -->
+<br><pre><code>Debugger.Break(); // Устанавливает точку останова в C#</code></pre>
+<!-- Updated: 2026-03-29 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
