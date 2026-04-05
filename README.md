@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Debugging</strong>
-<br><small><strong>Description:</strong> The process of identifying and removing errors or bugs from software code.</small>
-<br><small><strong>Translate(RU):</strong> Отладка — процесс выявления и устранения ошибок (багов) в программном коде.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Debugging" target="_blank">Learn more</a></small>
+    <strong>Term: Dependency Injection</strong>
+<br><small><strong>Description:</strong> A design pattern used to achieve inversion of control by providing dependencies to a class from the outside rather than creating them internally.</small>
+<br><small><strong>Translate(RU):</strong> Внедрение зависимостей — шаблон проектирования, реализующий инверсию управления путём передачи зависимостей классу извне, а не создания их внутри.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Dependency_injection" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>Debugger.Break(); // Устанавливает точку останова в C#</code></pre>
-<!-- Updated: 2026-03-29 -->
+<br><pre><code>services.AddScoped&lt;IMyService, MyService&gt;();</code></pre>
+<!-- Updated: 2026-04-05 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
