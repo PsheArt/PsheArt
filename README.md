@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Dependency Injection</strong>
-<br><small><strong>Description:</strong> A design pattern used to achieve inversion of control by providing dependencies to a class from the outside rather than creating them internally.</small>
-<br><small><strong>Translate(RU):</strong> Внедрение зависимостей — шаблон проектирования, реализующий инверсию управления путём передачи зависимостей классу извне, а не создания их внутри.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Dependency_injection" target="_blank">Learn more</a></small>
+    <strong>Term: Encapsulation</strong>
+<br><small><strong>Description:</strong> The bundling of data with the methods that operate on that data, and restricting direct access to internal components.</small>
+<br><small><strong>Translate(RU):</strong> Инкапсуляция — объединение данных и методов, работающих с этими данными, с ограничением прямого доступа к внутренним компонентам.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>services.AddScoped&lt;IMyService, MyService&gt;();</code></pre>
-<!-- Updated: 2026-04-05 -->
+<br><pre><code>private int _value; public int GetValue() =&gt; _value;</code></pre>
+<!-- Updated: 2026-04-12 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
