@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Encapsulation</strong>
-<br><small><strong>Description:</strong> The bundling of data with the methods that operate on that data, and restricting direct access to internal components.</small>
-<br><small><strong>Translate(RU):</strong> Инкапсуляция — объединение данных и методов, работающих с этими данными, с ограничением прямого доступа к внутренним компонентам.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)" target="_blank">Learn more</a></small>
+    <strong>Term: Exception</strong>
+<br><small><strong>Description:</strong> An event that occurs during program execution that disrupts the normal flow of instructions.</small>
+<br><small><strong>Translate(RU):</strong> Исключение — событие, возникающее во время выполнения программы и нарушающее нормальный поток выполнения инструкций.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Exception_handling" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>private int _value; public int GetValue() =&gt; _value;</code></pre>
-<!-- Updated: 2026-04-12 -->
+<br><pre><code>try { riskyCode(); } catch (Exception ex) { Console.WriteLine(ex.Message); }</code></pre>
+<!-- Updated: 2026-04-19 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
