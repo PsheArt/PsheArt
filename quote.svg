@@ -1,16 +1,15 @@
-<svg width="600" height="170" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="170" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Do not ignore your gift. Your gift is the thing you do the</tspan>
-    <tspan x="60.0" y="69">absolute best with the least amount of effort.» — Steve</tspan>
-    <tspan x="60.0" y="93">Harvey</tspan>
+    <tspan x="60.0" y="45">«As soon as you trust yourself, you will know how to live.»</tspan>
+    <tspan x="60.0" y="69">— Johann Wolfgang von Goethe</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="125">«Не игнорируйте свой подарок. Ваш дар – это то, что вы делаете лучше</tspan>
-    <tspan x="60.0" y="140">всего с наименьшими усилиями.» — Стив Харви</tspan>
+    <tspan x="60.0" y="101">«Как только вы поверите себе, вы узнаете, как жить.» — Иоганн</tspan>
+    <tspan x="60.0" y="116">Вольфганг фон Гете</tspan>
   </text>
 </svg>
