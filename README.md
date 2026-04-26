@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Exception</strong>
-<br><small><strong>Description:</strong> An event that occurs during program execution that disrupts the normal flow of instructions.</small>
-<br><small><strong>Translate(RU):</strong> Исключение — событие, возникающее во время выполнения программы и нарушающее нормальный поток выполнения инструкций.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Exception_handling" target="_blank">Learn more</a></small>
+    <strong>Term: Framework</strong>
+<br><small><strong>Description:</strong> A reusable, extensible set of libraries or classes that provide a foundation for developing applications.</small>
+<br><small><strong>Translate(RU):</strong> Фреймворк — многократно используемый и расширяемый набор библиотек или классов, предоставляющий основу для разработки приложений.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Software_framework" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>try { riskyCode(); } catch (Exception ex) { Console.WriteLine(ex.Message); }</code></pre>
-<!-- Updated: 2026-04-19 -->
+<br><pre><code>// ASP.NET Core — пример фреймворка для веб-приложений на C#</code></pre>
+<!-- Updated: 2026-04-26 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
