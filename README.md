@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Framework</strong>
-<br><small><strong>Description:</strong> A reusable, extensible set of libraries or classes that provide a foundation for developing applications.</small>
-<br><small><strong>Translate(RU):</strong> Фреймворк — многократно используемый и расширяемый набор библиотек или классов, предоставляющий основу для разработки приложений.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Software_framework" target="_blank">Learn more</a></small>
+    <strong>Term: Function</strong>
+<br><small><strong>Description:</strong> A named block of code designed to perform a specific task and optionally return a value.</small>
+<br><small><strong>Translate(RU):</strong> Функция — именованный блок кода, предназначенный для выполнения определённой задачи и, при необходимости, возврата значения.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Subroutine" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>// ASP.NET Core — пример фреймворка для веб-приложений на C#</code></pre>
-<!-- Updated: 2026-04-26 -->
+<br><pre><code>int Add(int a, int b) =&gt; a + b;</code></pre>
+<!-- Updated: 2026-05-03 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
