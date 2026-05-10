@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Function</strong>
-<br><small><strong>Description:</strong> A named block of code designed to perform a specific task and optionally return a value.</small>
-<br><small><strong>Translate(RU):</strong> Функция — именованный блок кода, предназначенный для выполнения определённой задачи и, при необходимости, возврата значения.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Subroutine" target="_blank">Learn more</a></small>
+    <strong>Term: Garbage Collection</strong>
+<br><small><strong>Description:</strong> Automatic memory management that reclaims memory occupied by objects no longer in use by the program.</small>
+<br><small><strong>Translate(RU):</strong> Сборка мусора — автоматическое управление памятью, освобождающее память, занимаемую объектами, которые больше не используются программой.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>int Add(int a, int b) =&gt; a + b;</code></pre>
-<!-- Updated: 2026-05-03 -->
+<br><pre><code>// В .NET сборка мусора выполняется автоматически средой выполнения</code></pre>
+<!-- Updated: 2026-05-10 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
