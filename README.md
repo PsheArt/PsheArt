@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Garbage Collection</strong>
-<br><small><strong>Description:</strong> Automatic memory management that reclaims memory occupied by objects no longer in use by the program.</small>
-<br><small><strong>Translate(RU):</strong> Сборка мусора — автоматическое управление памятью, освобождающее память, занимаемую объектами, которые больше не используются программой.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)" target="_blank">Learn more</a></small>
+    <strong>Term: Generic</strong>
+<br><small><strong>Description:</strong> A language feature that enables writing code that can operate on any data type while preserving type safety.</small>
+<br><small><strong>Translate(RU):</strong> Обобщение — языковая возможность, позволяющая писать код, работающий с любыми типами данных при сохранении типовой безопасности.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Generic_programming" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>// В .NET сборка мусора выполняется автоматически средой выполнения</code></pre>
-<!-- Updated: 2026-05-10 -->
+<br><pre><code>public class Box&lt;T&gt; { public T Value { get; set; } }</code></pre>
+<!-- Updated: 2026-05-17 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
