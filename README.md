@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Generic</strong>
-<br><small><strong>Description:</strong> A language feature that enables writing code that can operate on any data type while preserving type safety.</small>
-<br><small><strong>Translate(RU):</strong> Обобщение — языковая возможность, позволяющая писать код, работающий с любыми типами данных при сохранении типовой безопасности.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Generic_programming" target="_blank">Learn more</a></small>
+    <strong>Term: Hash Table</strong>
+<br><small><strong>Description:</strong> A data structure that implements an associative array using a hash function to map keys to values.</small>
+<br><small><strong>Translate(RU):</strong> Хеш-таблица — структура данных, реализующая ассоциативный массив с помощью хеш-функции для сопоставления ключей со значениями.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Hash_table" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public class Box&lt;T&gt; { public T Value { get; set; } }</code></pre>
-<!-- Updated: 2026-05-17 -->
+<br><pre><code>var dict = new Dictionary&lt;string, int&gt;(); dict["key"] = 42;</code></pre>
+<!-- Updated: 2026-05-24 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
