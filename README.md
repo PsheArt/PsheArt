@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Hash Table</strong>
-<br><small><strong>Description:</strong> A data structure that implements an associative array using a hash function to map keys to values.</small>
-<br><small><strong>Translate(RU):</strong> Хеш-таблица — структура данных, реализующая ассоциативный массив с помощью хеш-функции для сопоставления ключей со значениями.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Hash_table" target="_blank">Learn more</a></small>
+    <strong>Term: IDE</strong>
+<br><small><strong>Description:</strong> Integrated Development Environment — a software application that provides comprehensive tools for software development, including editing, debugging, and building.</small>
+<br><small><strong>Translate(RU):</strong> Интегрированная среда разработки (IDE) — программное приложение, предоставляющее комплексные средства для разработки ПО, включая редактирование, отладку и сборку.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Integrated_development_environment" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>var dict = new Dictionary&lt;string, int&gt;(); dict["key"] = 42;</code></pre>
-<!-- Updated: 2026-05-24 -->
+<br><pre><code>// Visual Studio — пример IDE для разработки на C#</code></pre>
+<!-- Updated: 2026-05-31 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
