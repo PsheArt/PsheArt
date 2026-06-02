@@ -1,13 +1,15 @@
-<svg width="600" height="107" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="107" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«The energy of the mind is the essence of life.» — Aristotle</tspan>
+    <tspan x="60.0" y="45">«Love and compassion are necessities, not luxuries. Without</tspan>
+    <tspan x="60.0" y="69">them, humanity cannot survive.» — Dalai Lama</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="77">«Энергия ума – это суть жизни.» — Аристотель</tspan>
+    <tspan x="60.0" y="101">«Любовь и сострадание — это необходимость, а не роскошь. Без них</tspan>
+    <tspan x="60.0" y="116">человечество не сможет выжить.» — Далай-лама</tspan>
   </text>
 </svg>
