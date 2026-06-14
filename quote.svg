@@ -1,15 +1,14 @@
-<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="131" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="131" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Never feel shame for trying and failing, for he who has</tspan>
-    <tspan x="60.0" y="69">never failed is he who has never tried.» — Og Mandino</tspan>
+    <tspan x="60.0" y="45">«If you do not go within, you go without.» — Neale Donald</tspan>
+    <tspan x="60.0" y="69">Walsch</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="101">«Никогда не стыдитесь попыток и неудач, потому что тот, кто никогда не</tspan>
-    <tspan x="60.0" y="116">терпел неудач, тот никогда не пытался.» — Ог Мандино</tspan>
+    <tspan x="60.0" y="101">«Если вы не идете внутрь, вы идете наружу.» — Нил Дональд Уолш</tspan>
   </text>
 </svg>

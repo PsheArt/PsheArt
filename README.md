@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Inheritance</strong>
-<br><small><strong>Description:</strong> A mechanism in object-oriented programming where a new class is based on an existing class, inheriting its members.</small>
-<br><small><strong>Translate(RU):</strong> Наследование — механизм объектно-ориентированного программирования, при котором новый класс создаётся на основе существующего и наследует его члены.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)" target="_blank">Learn more</a></small>
+    <strong>Term: Interface</strong>
+<br><small><strong>Description:</strong> A contract that defines a set of methods or properties a class must implement.</small>
+<br><small><strong>Translate(RU):</strong> Интерфейс — контракт, определяющий набор методов или свойств, которые класс обязан реализовать.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public class Dog : Animal { public override void Speak() =&gt; Console.WriteLine("Woof!"); }</code></pre>
-<!-- Updated: 2026-06-07 -->
+<br><pre><code>public interface IRunnable { void Run(); }</code></pre>
+<!-- Updated: 2026-06-14 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
