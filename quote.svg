@@ -1,13 +1,17 @@
-<svg width="600" height="107" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="185" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="107" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="185" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«When there is nothing to do, do nothing.» — Warren Buffett</tspan>
+    <tspan x="60.0" y="45">«Every second you have on this planet is very precious and</tspan>
+    <tspan x="60.0" y="69">it's your responsibility that you're happy.» — Naval</tspan>
+    <tspan x="60.0" y="93">Ravikant</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="77">«Когда нечего делать, ничего не делай.» — Уоррен Баффет</tspan>
+    <tspan x="60.0" y="125">«Каждая секунда, которую вы проводите на этой планете, очень</tspan>
+    <tspan x="60.0" y="140">драгоценна, и вы несете ответственность за то, чтобы вы были</tspan>
+    <tspan x="60.0" y="155">счастливы.» — Военно-морской Равикант</tspan>
   </text>
 </svg>
