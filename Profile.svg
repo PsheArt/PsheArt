@@ -1,4 +1,4 @@
-<svg width="650" height="220" viewBox="0 0 650 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="160" viewBox="0 0 650 160" xmlns="http://www.w3.org/2000/svg">
     
   <style>    
     .typing-text {
@@ -25,14 +25,7 @@
     <tspan class="cursor">|</tspan>
   </text>
     
-  <text x="80" y="110" class="typing-text">
-    <animate attributeName="opacity" values="0;5" dur="0.5s" begin="1.5s" fill="freeze"/>
-    <animate attributeName="textLength" from="0" to="350" dur="2s" begin="1.5s" fill="freeze"/>
-    Master's student at BSU
-    <tspan class="cursor">|</tspan>
-  </text>
-  
-  <text x="80" y="160" class="typing-text">
+  <text x="80" y="100" class="typing-text">
     <animate attributeName="opacity" values="0;5" dur="0.5s" begin="3.5s" fill="freeze"/>
     <animate attributeName="textLength" from="0" to="350" dur="1.5s" begin="3.5s" fill="freeze"/>
     Programming Teacher
