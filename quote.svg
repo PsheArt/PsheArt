@@ -1,13 +1,15 @@
-<svg width="600" height="107" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="107" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Our greatest fears lie in anticipation.» — Honore de Balzac</tspan>
+    <tspan x="60.0" y="45">«The season of failure is the best time for sowing the seeds</tspan>
+    <tspan x="60.0" y="69">of success.» — Paramahansa Yogananda</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="77">«Наши самые большие страхи связаны с ожиданием.» — Оноре де Бальзак</tspan>
+    <tspan x="60.0" y="101">«Сезон неудач – лучшее время для посева семян успеха.» — Парамаханса</tspan>
+    <tspan x="60.0" y="116">Йогананда</tspan>
   </text>
 </svg>
