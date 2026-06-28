@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Iterator</strong>
-<br><small><strong>Description:</strong> An object that enables sequential traversal through a collection, abstracting the underlying structure.</small>
-<br><small><strong>Translate(RU):</strong> Итератор — объект, позволяющий последовательно обходить коллекцию, абстрагируясь от её внутренней структуры.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Iterator" target="_blank">Learn more</a></small>
+    <strong>Term: JSON</strong>
+<br><small><strong>Description:</strong> JavaScript Object Notation — a lightweight, text-based format for storing and transmitting structured data.</small>
+<br><small><strong>Translate(RU):</strong> JSON (нотация объектов JavaScript) — лёгкий текстовый формат для хранения и передачи структурированных данных.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>foreach (var item in list) { Console.WriteLine(item); }</code></pre>
-<!-- Updated: 2026-06-21 -->
+<br><pre><code>string json = JsonSerializer.Serialize(obj);</code></pre>
+<!-- Updated: 2026-06-28 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
