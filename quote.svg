@@ -1,13 +1,14 @@
-<svg width="600" height="107" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="131" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="107" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="131" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Remember we're all in this alone.» — Lily Tomlin</tspan>
+    <tspan x="60.0" y="45">«Only by acceptance of the past, can you alter it.» — T.S.</tspan>
+    <tspan x="60.0" y="69">Eliot</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="77">«Помните, что мы все здесь одни.» — Лили Томлин</tspan>
+    <tspan x="60.0" y="101">«Только приняв прошлое, вы сможете его изменить.» — Т.С. Элиот</tspan>
   </text>
 </svg>
