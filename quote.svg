@@ -1,15 +1,11 @@
-<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="108" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="108" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Don't listen to the person who has the answers; listen to</tspan>
-    <tspan x="60.0" y="69">the person who has the questions.» — Albert Einstein</tspan>
-  </text>
-  <text class="translation">
-    <tspan x="60.0" y="101">«Не слушайте человека, у которого есть ответы; слушайте человека, у</tspan>
-    <tspan x="60.0" y="116">которого есть вопросы.» — Альберт Эйнштейн</tspan>
+    <tspan x="60.0" y="45">«Don't think money does everything or you are going to end</tspan>
+    <tspan x="60.0" y="69">up doing everything for money.» — Voltaire</tspan>
   </text>
 </svg>

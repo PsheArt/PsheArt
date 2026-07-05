@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: JSON</strong>
-<br><small><strong>Description:</strong> JavaScript Object Notation — a lightweight, text-based format for storing and transmitting structured data.</small>
-<br><small><strong>Translate(RU):</strong> JSON (нотация объектов JavaScript) — лёгкий текстовый формат для хранения и передачи структурированных данных.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">Learn more</a></small>
+    <strong>Term: Lambda Expression</strong>
+<br><small><strong>Description:</strong> An anonymous function that can be used to create delegates or expression trees.</small>
+<br><small><strong>Translate(RU):</strong> Лямбда-выражение — анонимная функция, используемая для создания делегатов или деревьев выражений.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Anonymous_function" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>string json = JsonSerializer.Serialize(obj);</code></pre>
-<!-- Updated: 2026-06-28 -->
+<br><pre><code>Func&lt;int, int&gt; square = x =&gt; x * x;</code></pre>
+<!-- Updated: 2026-07-05 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
