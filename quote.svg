@@ -1,14 +1,15 @@
-<svg width="600" height="131" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="131" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Judge a man by his questions rather than his answers.» —</tspan>
-    <tspan x="60.0" y="69">Voltaire</tspan>
+    <tspan x="60.0" y="45">«Maybe you are searching among the branches, for what only</tspan>
+    <tspan x="60.0" y="69">appears in the roots.» — Rumi</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="101">«Судите о человеке по его вопросам, а не по ответам.» — Вольтер</tspan>
+    <tspan x="60.0" y="101">«Может быть, вы ищете среди ветвей то, что появляется только в</tspan>
+    <tspan x="60.0" y="116">корнях.» — Руми</tspan>
   </text>
 </svg>
