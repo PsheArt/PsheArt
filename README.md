@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Lambda Expression</strong>
-<br><small><strong>Description:</strong> An anonymous function that can be used to create delegates or expression trees.</small>
-<br><small><strong>Translate(RU):</strong> Лямбда-выражение — анонимная функция, используемая для создания делегатов или деревьев выражений.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Anonymous_function" target="_blank">Learn more</a></small>
+    <strong>Term: Library</strong>
+<br><small><strong>Description:</strong> A collection of precompiled code that can be used by programs to perform common tasks.</small>
+<br><small><strong>Translate(RU):</strong> Библиотека — набор предварительно скомпилированного кода, который программы могут использовать для выполнения типовых задач.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Library_(computing)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>Func&lt;int, int&gt; square = x =&gt; x * x;</code></pre>
-<!-- Updated: 2026-07-05 -->
+<br><pre><code>using System.Linq; // Пространство имён LINQ из стандартной библиотеки</code></pre>
+<!-- Updated: 2026-07-12 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
