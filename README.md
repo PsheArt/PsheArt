@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Library</strong>
-<br><small><strong>Description:</strong> A collection of precompiled code that can be used by programs to perform common tasks.</small>
-<br><small><strong>Translate(RU):</strong> Библиотека — набор предварительно скомпилированного кода, который программы могут использовать для выполнения типовых задач.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Library_(computing)" target="_blank">Learn more</a></small>
+    <strong>Term: LINQ</strong>
+<br><small><strong>Description:</strong> Language Integrated Query — a .NET feature that adds native data querying capabilities to C# and VB.NET.</small>
+<br><small><strong>Translate(RU):</strong> LINQ (встроенный в язык запрос) — функциональность .NET, добавляющая встроенные средства запроса данных в C# и VB.NET.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Language_Integrated_Query" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>using System.Linq; // Пространство имён LINQ из стандартной библиотеки</code></pre>
-<!-- Updated: 2026-07-12 -->
+<br><pre><code>var result = list.Where(x =&gt; x &gt; 5).ToList();</code></pre>
+<!-- Updated: 2026-07-19 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
