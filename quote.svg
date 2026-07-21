@@ -1,14 +1,15 @@
-<svg width="600" height="131" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="131" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Don't stumble over something that's behind you.» — Steve</tspan>
-    <tspan x="60.0" y="69">Harvey</tspan>
+    <tspan x="60.0" y="45">«Opportunities don't often come along. So, when they do, you</tspan>
+    <tspan x="60.0" y="69">have to grab them.» — Audrey Hepburn</tspan>
   </text>
   <text class="translation">
-    <tspan x="60.0" y="101">«Не спотыкайтесь о то, что позади вас.» — Стив Харви</tspan>
+    <tspan x="60.0" y="101">«Возможности не часто появляются. Итак, когда они это сделают, вам</tspan>
+    <tspan x="60.0" y="116">придется их схватить.» — Одри Хепберн</tspan>
   </text>
 </svg>
