@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: LINQ</strong>
-<br><small><strong>Description:</strong> Language Integrated Query — a .NET feature that adds native data querying capabilities to C# and VB.NET.</small>
-<br><small><strong>Translate(RU):</strong> LINQ (встроенный в язык запрос) — функциональность .NET, добавляющая встроенные средства запроса данных в C# и VB.NET.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Language_Integrated_Query" target="_blank">Learn more</a></small>
+    <strong>Term: Loop</strong>
+<br><small><strong>Description:</strong> A control structure that repeatedly executes a block of code while a condition is true.</small>
+<br><small><strong>Translate(RU):</strong> Цикл — управляющая конструкция, многократно выполняющая блок кода, пока выполняется заданное условие.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Control_flow#Loops" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>var result = list.Where(x =&gt; x &gt; 5).ToList();</code></pre>
-<!-- Updated: 2026-07-19 -->
+<br><pre><code>for (int i = 0; i &lt; 10; i++) { Console.WriteLine(i); }</code></pre>
+<!-- Updated: 2026-07-26 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
