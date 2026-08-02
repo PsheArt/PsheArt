@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Loop</strong>
-<br><small><strong>Description:</strong> A control structure that repeatedly executes a block of code while a condition is true.</small>
-<br><small><strong>Translate(RU):</strong> Цикл — управляющая конструкция, многократно выполняющая блок кода, пока выполняется заданное условие.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Control_flow#Loops" target="_blank">Learn more</a></small>
+    <strong>Term: Method</strong>
+<br><small><strong>Description:</strong> A function that is associated with an object or class and defines its behavior.</small>
+<br><small><strong>Translate(RU):</strong> Метод — функция, связанная с объектом или классом и определяющая его поведение.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Method_(computer_programming)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>for (int i = 0; i &lt; 10; i++) { Console.WriteLine(i); }</code></pre>
-<!-- Updated: 2026-07-26 -->
+<br><pre><code>public void SayHello() =&gt; Console.WriteLine("Hello!");</code></pre>
+<!-- Updated: 2026-08-02 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
