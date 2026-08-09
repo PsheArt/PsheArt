@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Method</strong>
-<br><small><strong>Description:</strong> A function that is associated with an object or class and defines its behavior.</small>
-<br><small><strong>Translate(RU):</strong> Метод — функция, связанная с объектом или классом и определяющая его поведение.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Method_(computer_programming)" target="_blank">Learn more</a></small>
+    <strong>Term: Microservice</strong>
+<br><small><strong>Description:</strong> An architectural style that structures an application as a collection of small, autonomous, and loosely coupled services.</small>
+<br><small><strong>Translate(RU):</strong> Микросервис — архитектурный стиль, структурирующий приложение как набор небольших, автономных и слабосвязанных сервисов.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Microservices" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public void SayHello() =&gt; Console.WriteLine("Hello!");</code></pre>
-<!-- Updated: 2026-08-02 -->
+<br><pre><code>// Реализуется как отдельные .NET Web API проекты, каждый со своим контейнером</code></pre>
+<!-- Updated: 2026-08-09 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
