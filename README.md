@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Microservice</strong>
-<br><small><strong>Description:</strong> An architectural style that structures an application as a collection of small, autonomous, and loosely coupled services.</small>
-<br><small><strong>Translate(RU):</strong> Микросервис — архитектурный стиль, структурирующий приложение как набор небольших, автономных и слабосвязанных сервисов.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Microservices" target="_blank">Learn more</a></small>
+    <strong>Term: Middleware</strong>
+<br><small><strong>Description:</strong> Software that acts as an intermediary between components in a distributed system, such as between a web server and application logic.</small>
+<br><small><strong>Translate(RU):</strong> Промежуточное ПО — программное обеспечение, выступающее посредником между компонентами в распределённой системе, например, между веб-сервером и логикой приложения.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Middleware" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>// Реализуется как отдельные .NET Web API проекты, каждый со своим контейнером</code></pre>
-<!-- Updated: 2026-08-09 -->
+<br><pre><code>app.UseMiddleware&lt;CustomMiddleware&gt;();</code></pre>
+<!-- Updated: 2026-08-16 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
