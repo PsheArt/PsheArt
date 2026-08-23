@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Middleware</strong>
-<br><small><strong>Description:</strong> Software that acts as an intermediary between components in a distributed system, such as between a web server and application logic.</small>
-<br><small><strong>Translate(RU):</strong> Промежуточное ПО — программное обеспечение, выступающее посредником между компонентами в распределённой системе, например, между веб-сервером и логикой приложения.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Middleware" target="_blank">Learn more</a></small>
+    <strong>Term: Namespace</strong>
+<br><small><strong>Description:</strong> A declarative region that provides a scope to identifiers to prevent naming collisions.</small>
+<br><small><strong>Translate(RU):</strong> Пространство имён — декларативная область, предоставляющая область видимости для идентификаторов и предотвращающая конфликты имён.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Namespace" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>app.UseMiddleware&lt;CustomMiddleware&gt;();</code></pre>
-<!-- Updated: 2026-08-16 -->
+<br><pre><code>namespace MyApplication { class Program { } }</code></pre>
+<!-- Updated: 2026-08-23 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
