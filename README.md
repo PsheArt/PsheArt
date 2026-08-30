@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Namespace</strong>
-<br><small><strong>Description:</strong> A declarative region that provides a scope to identifiers to prevent naming collisions.</small>
-<br><small><strong>Translate(RU):</strong> Пространство имён — декларативная область, предоставляющая область видимости для идентификаторов и предотвращающая конфликты имён.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Namespace" target="_blank">Learn more</a></small>
+    <strong>Term: Null</strong>
+<br><small><strong>Description:</strong> A special value indicating the absence of a reference to an object.</small>
+<br><small><strong>Translate(RU):</strong> Null — специальное значение, обозначающее отсутствие ссылки на объект.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Null_pointer" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>namespace MyApplication { class Program { } }</code></pre>
-<!-- Updated: 2026-08-23 -->
+<br><pre><code>string name = null;</code></pre>
+<!-- Updated: 2026-08-30 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
