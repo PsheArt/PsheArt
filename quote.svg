@@ -1,15 +1,11 @@
-<svg width="600" height="146" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="108" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="146" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="108" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«Be brave to stand for what you believe in even if you stand</tspan>
-    <tspan x="60.0" y="69">alone.» — Roy T. Bennett</tspan>
-  </text>
-  <text class="translation">
-    <tspan x="60.0" y="101">«Будьте смелыми и отстаивайте то, во что верите, даже если вы один.» —</tspan>
-    <tspan x="60.0" y="116">Рой Т. Беннетт</tspan>
+    <tspan x="60.0" y="45">«It is not the knowing that is difficult, but the doing.» —</tspan>
+    <tspan x="60.0" y="69">Chinese Proverb</tspan>
   </text>
 </svg>
