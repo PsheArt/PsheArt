@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Null</strong>
-<br><small><strong>Description:</strong> A special value indicating the absence of a reference to an object.</small>
-<br><small><strong>Translate(RU):</strong> Null — специальное значение, обозначающее отсутствие ссылки на объект.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Null_pointer" target="_blank">Learn more</a></small>
+    <strong>Term: Object</strong>
+<br><small><strong>Description:</strong> An instance of a class that encapsulates data and behavior in object-oriented programming.</small>
+<br><small><strong>Translate(RU):</strong> Объект — экземпляр класса, инкапсулирующий данные и поведение в объектно-ориентированном программировании.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Object_(computer_science)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>string name = null;</code></pre>
-<!-- Updated: 2026-08-30 -->
+<br><pre><code>var obj = new MyClass();</code></pre>
+<!-- Updated: 2026-09-06 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
