@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Object</strong>
-<br><small><strong>Description:</strong> An instance of a class that encapsulates data and behavior in object-oriented programming.</small>
-<br><small><strong>Translate(RU):</strong> Объект — экземпляр класса, инкапсулирующий данные и поведение в объектно-ориентированном программировании.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Object_(computer_science)" target="_blank">Learn more</a></small>
+    <strong>Term: Polymorphism</strong>
+<br><small><strong>Description:</strong> The ability of objects of different types to be treated through a common interface.</small>
+<br><small><strong>Translate(RU):</strong> Полиморфизм — возможность обработки объектов разных типов через общий интерфейс.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Polymorphism_(computer_science)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>var obj = new MyClass();</code></pre>
-<!-- Updated: 2026-09-06 -->
+<br><pre><code>Animal a = new Dog(); a.MakeSound(); // Вызывает Dog.MakeSound()</code></pre>
+<!-- Updated: 2026-09-13 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
