@@ -1,17 +1,11 @@
-<svg width="600" height="185" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="108" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="185" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="108" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«The best investment you can make, is an investment in</tspan>
-    <tspan x="60.0" y="69">yourself... The more you learn, the more you'll earn.» —</tspan>
-    <tspan x="60.0" y="93">Warren Buffett</tspan>
-  </text>
-  <text class="translation">
-    <tspan x="60.0" y="125">«Лучшая инвестиция, которую вы можете сделать, — это инвестиция в</tspan>
-    <tspan x="60.0" y="140">себя. Чем больше вы учитесь, тем больше вы заработаете.» — Уоррен</tspan>
-    <tspan x="60.0" y="155">Баффет</tspan>
+    <tspan x="60.0" y="45">«There is no truth. There is only perception.» — Gustave</tspan>
+    <tspan x="60.0" y="69">Flaubert</tspan>
   </text>
 </svg>
