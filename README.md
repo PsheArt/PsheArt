@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Polymorphism</strong>
-<br><small><strong>Description:</strong> The ability of objects of different types to be treated through a common interface.</small>
-<br><small><strong>Translate(RU):</strong> Полиморфизм — возможность обработки объектов разных типов через общий интерфейс.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Polymorphism_(computer_science)" target="_blank">Learn more</a></small>
+    <strong>Term: Queue</strong>
+<br><small><strong>Description:</strong> A linear data structure that follows the First-In-First-Out (FIFO) principle.</small>
+<br><small><strong>Translate(RU):</strong> Очередь — линейная структура данных, следующая принципу «первым пришёл — первым вышел» (FIFO).</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>Animal a = new Dog(); a.MakeSound(); // Вызывает Dog.MakeSound()</code></pre>
-<!-- Updated: 2026-09-13 -->
+<br><pre><code>var q = new Queue&lt;string&gt;(); q.Enqueue("item"); string first = q.Dequeue();</code></pre>
+<!-- Updated: 2026-09-20 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
