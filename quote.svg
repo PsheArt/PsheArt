@@ -1,11 +1,12 @@
-<svg width="600" height="108" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="132" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="108" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="132" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«A mountain never yields to the wind no matter how strong it</tspan>
-    <tspan x="60.0" y="69">is.» — Zen Proverb</tspan>
+    <tspan x="60.0" y="45">«For every effect there is a root cause. Find and address</tspan>
+    <tspan x="60.0" y="69">the root cause rather than try to fix the effect, as there</tspan>
+    <tspan x="60.0" y="93">is no end to the latter.» — Celestine Chua</tspan>
   </text>
 </svg>
