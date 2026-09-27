@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Queue</strong>
-<br><small><strong>Description:</strong> A linear data structure that follows the First-In-First-Out (FIFO) principle.</small>
-<br><small><strong>Translate(RU):</strong> Очередь — линейная структура данных, следующая принципу «первым пришёл — первым вышел» (FIFO).</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)" target="_blank">Learn more</a></small>
+    <strong>Term: Recursion</strong>
+<br><small><strong>Description:</strong> A technique where a function calls itself to solve a problem by reducing it to smaller instances.</small>
+<br><small><strong>Translate(RU):</strong> Рекурсия — техника, при которой функция вызывает саму себя для решения задачи путём сведения её к более мелким подзадачам.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>var q = new Queue&lt;string&gt;(); q.Enqueue("item"); string first = q.Dequeue();</code></pre>
-<!-- Updated: 2026-09-20 -->
+<br><pre><code>int Factorial(int n) =&gt; n &lt;= 1 ? 1 : n * Factorial(n - 1);</code></pre>
+<!-- Updated: 2026-09-27 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
