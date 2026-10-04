@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Recursion</strong>
-<br><small><strong>Description:</strong> A technique where a function calls itself to solve a problem by reducing it to smaller instances.</small>
-<br><small><strong>Translate(RU):</strong> Рекурсия — техника, при которой функция вызывает саму себя для решения задачи путём сведения её к более мелким подзадачам.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)" target="_blank">Learn more</a></small>
+    <strong>Term: Repository Pattern</strong>
+<br><small><strong>Description:</strong> A design pattern that mediates between the domain layer and the data mapping layer, abstracting data access logic.</small>
+<br><small><strong>Translate(RU):</strong> Паттерн репозитория — шаблон проектирования, посредничающий между доменным и слоем отображения данных, абстрагирующий логику доступа к данным.</small>
+<br><small><strong>Reference:</strong> <a href="https://martinfowler.com/eaaCatalog/repository.html" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>int Factorial(int n) =&gt; n &lt;= 1 ? 1 : n * Factorial(n - 1);</code></pre>
-<!-- Updated: 2026-09-27 -->
+<br><pre><code>public interface IUserRepository { User GetById(int id); void Add(User user); }</code></pre>
+<!-- Updated: 2026-10-04 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
