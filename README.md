@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Repository Pattern</strong>
-<br><small><strong>Description:</strong> A design pattern that mediates between the domain layer and the data mapping layer, abstracting data access logic.</small>
-<br><small><strong>Translate(RU):</strong> Паттерн репозитория — шаблон проектирования, посредничающий между доменным и слоем отображения данных, абстрагирующий логику доступа к данным.</small>
-<br><small><strong>Reference:</strong> <a href="https://martinfowler.com/eaaCatalog/repository.html" target="_blank">Learn more</a></small>
+    <strong>Term: REST</strong>
+<br><small><strong>Description:</strong> Representational State Transfer — an architectural style for designing networked applications, commonly used in web services.</small>
+<br><small><strong>Translate(RU):</strong> REST (передача состояния представления) — архитектурный стиль проектирования сетевых приложений, широко используемый в веб-сервисах.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public interface IUserRepository { User GetById(int id); void Add(User user); }</code></pre>
-<!-- Updated: 2026-10-04 -->
+<br><pre><code>// ASP.NET Core Web API реализует RESTful-сервисы по соглашению</code></pre>
+<!-- Updated: 2026-10-11 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
