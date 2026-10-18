@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: REST</strong>
-<br><small><strong>Description:</strong> Representational State Transfer — an architectural style for designing networked applications, commonly used in web services.</small>
-<br><small><strong>Translate(RU):</strong> REST (передача состояния представления) — архитектурный стиль проектирования сетевых приложений, широко используемый в веб-сервисах.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">Learn more</a></small>
+    <strong>Term: Serialization</strong>
+<br><small><strong>Description:</strong> The process of converting an object into a format that can be stored or transmitted and later reconstructed.</small>
+<br><small><strong>Translate(RU):</strong> Сериализация — процесс преобразования объекта в формат, пригодный для хранения или передачи, с возможностью последующего восстановления.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Serialization" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>// ASP.NET Core Web API реализует RESTful-сервисы по соглашению</code></pre>
-<!-- Updated: 2026-10-11 -->
+<br><pre><code>string json = JsonSerializer.Serialize(obj);</code></pre>
+<!-- Updated: 2026-10-18 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
