@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Serialization</strong>
-<br><small><strong>Description:</strong> The process of converting an object into a format that can be stored or transmitted and later reconstructed.</small>
-<br><small><strong>Translate(RU):</strong> Сериализация — процесс преобразования объекта в формат, пригодный для хранения или передачи, с возможностью последующего восстановления.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Serialization" target="_blank">Learn more</a></small>
+    <strong>Term: Stack</strong>
+<br><small><strong>Description:</strong> A linear data structure that follows the Last-In-First-Out (LIFO) principle.</small>
+<br><small><strong>Translate(RU):</strong> Стек — линейная структура данных, следующая принципу «последним пришёл — первым вышел» (LIFO).</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>string json = JsonSerializer.Serialize(obj);</code></pre>
-<!-- Updated: 2026-10-18 -->
+<br><pre><code>var stack = new Stack&lt;int&gt;(); stack.Push(42); int top = stack.Pop();</code></pre>
+<!-- Updated: 2026-10-25 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
