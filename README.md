@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Stack</strong>
-<br><small><strong>Description:</strong> A linear data structure that follows the Last-In-First-Out (LIFO) principle.</small>
-<br><small><strong>Translate(RU):</strong> Стек — линейная структура данных, следующая принципу «последним пришёл — первым вышел» (LIFO).</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)" target="_blank">Learn more</a></small>
+    <strong>Term: Static</strong>
+<br><small><strong>Description:</strong> A keyword indicating that a member belongs to the type itself rather than to a specific instance.</small>
+<br><small><strong>Translate(RU):</strong> Static — ключевое слово, указывающее, что член принадлежит самому типу, а не конкретному экземпляру.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Static_member" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>var stack = new Stack&lt;int&gt;(); stack.Push(42); int top = stack.Pop();</code></pre>
-<!-- Updated: 2026-10-25 -->
+<br><pre><code>public static int Counter = 0;</code></pre>
+<!-- Updated: 2026-11-01 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
