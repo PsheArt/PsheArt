@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Static</strong>
-<br><small><strong>Description:</strong> A keyword indicating that a member belongs to the type itself rather than to a specific instance.</small>
-<br><small><strong>Translate(RU):</strong> Static — ключевое слово, указывающее, что член принадлежит самому типу, а не конкретному экземпляру.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Static_member" target="_blank">Learn more</a></small>
+    <strong>Term: Thread</strong>
+<br><small><strong>Description:</strong> The smallest unit of execution within a process that can be scheduled independently by the operating system.</small>
+<br><small><strong>Translate(RU):</strong> Поток — наименьшая единица выполнения внутри процесса, которая может независимо планироваться операционной системой.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Thread_(computing)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>public static int Counter = 0;</code></pre>
-<!-- Updated: 2026-11-01 -->
+<br><pre><code>var t = new Thread(() =&gt; Console.WriteLine("Hello")); t.Start();</code></pre>
+<!-- Updated: 2026-11-08 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
