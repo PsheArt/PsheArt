@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Thread</strong>
-<br><small><strong>Description:</strong> The smallest unit of execution within a process that can be scheduled independently by the operating system.</small>
-<br><small><strong>Translate(RU):</strong> Поток — наименьшая единица выполнения внутри процесса, которая может независимо планироваться операционной системой.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Thread_(computing)" target="_blank">Learn more</a></small>
+    <strong>Term: Unit Testing</strong>
+<br><small><strong>Description:</strong> A software testing method where individual units or components of source code are tested in isolation.</small>
+<br><small><strong>Translate(RU):</strong> Модульное тестирование — метод тестирования, при котором отдельные модули или компоненты исходного кода проверяются изолированно.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Unit_testing" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>var t = new Thread(() =&gt; Console.WriteLine("Hello")); t.Start();</code></pre>
-<!-- Updated: 2026-11-08 -->
+<br><pre><code>[Fact] public void TestAdd() { Assert.Equal(4, Add(2, 2)); }</code></pre>
+<!-- Updated: 2026-11-15 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
