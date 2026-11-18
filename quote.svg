@@ -1,12 +1,11 @@
-<svg width="600" height="132" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="108" xmlns="http://www.w3.org/2000/svg">
   <style>
     .quote { font: italic 17px Georgia, 'Times New Roman', serif; fill: #58a6ff; }
     .translation { font: 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
   </style>
-  <rect width="100%" height="132" fill="#141321" rx="12" ry="12"/>
+  <rect width="100%" height="108" fill="#141321" rx="12" ry="12"/>
   <text class="quote">
-    <tspan x="60.0" y="45">«You have to accept whatever comes, and the only important</tspan>
-    <tspan x="60.0" y="69">thing is that you meet it with the best you have to give.» —</tspan>
-    <tspan x="60.0" y="93">Eleanor Roosevelt</tspan>
+    <tspan x="60.0" y="45">«Some people don't like change, but you need to embrace</tspan>
+    <tspan x="60.0" y="69">change if the alternative is disaster.» — Elon Musk</tspan>
   </text>
 </svg>
