@@ -17,13 +17,13 @@
 <!-- WEEKLY_TERM_START -->
 <div align="center">
   <blockquote>
-    <strong>Term: Unit Testing</strong>
-<br><small><strong>Description:</strong> A software testing method where individual units or components of source code are tested in isolation.</small>
-<br><small><strong>Translate(RU):</strong> Модульное тестирование — метод тестирования, при котором отдельные модули или компоненты исходного кода проверяются изолированно.</small>
-<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Unit_testing" target="_blank">Learn more</a></small>
+    <strong>Term: Variable</strong>
+<br><small><strong>Description:</strong> A named storage location in memory that holds a value which can be changed during program execution.</small>
+<br><small><strong>Translate(RU):</strong> Переменная — именованное место в памяти, хранящее значение, которое может изменяться во время выполнения программы.</small>
+<br><small><strong>Reference:</strong> <a href="https://en.wikipedia.org/wiki/Variable_(computer_science)" target="_blank">Learn more</a></small>
 <br>
-<br><pre><code>[Fact] public void TestAdd() { Assert.Equal(4, Add(2, 2)); }</code></pre>
-<!-- Updated: 2026-11-15 -->
+<br><pre><code>int age = 25;</code></pre>
+<!-- Updated: 2026-11-22 -->
   </blockquote>
 </div>
 <!-- WEEKLY_TERM_END -->
